@@ -1,0 +1,62 @@
+{
+  "Devarim": {
+    "chumash": "dvarim",
+    "start": [
+      0,
+      0
+    ],
+    "end": [
+      2,
+      21
+    ],
+    "aliyot":[]
+  },
+  "Vaetchanan": {
+    "chumash": "dvarim",
+    "start": [
+      2,
+      22
+    ],
+    "end": [
+      6,
+      10
+    ],
+    "aliyot":[]
+  },
+  "Eikev": {
+    "chumash": "dvarim",
+    "start": [
+      6,
+      11
+    ],
+    "end": [
+      10,
+      24
+    ],
+    "aliyot":[]
+  },
+  "Re'eh": {
+    "chumash": "dvarim",
+    "start": [
+      10,
+      25
+    ],
+    "end": [
+      15,
+      16
+    ],
+    "aliyot":[]
+  },
+  "Shoftim": {
+    "chumash": "dvarim",
+    "start": [
+      15,
+      17
+    ],
+    "end": [
+      20,
+      14
+    ],
+    "aliyot":[]
+  }
+}

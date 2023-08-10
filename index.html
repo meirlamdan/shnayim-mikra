@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div class="container" x-data="app">
+
+    <!-- slide over for settings -->
+    <div class="relative z-50 w-auto h-auto">
+      <template x-teleport="body">
+        <div x-show="slideOverOpen" @keydown.window.escape="slideOverOpen=false" class="relative z-[99]">
+          <div x-show="slideOverOpen" x-transition.opacity.duration.600ms @click="slideOverOpen = false"
+            class="fixed inset-0 bg-black bg-opacity-10"></div>
+          <div class="fixed inset-0 overflow-hidden">
+            <div class="absolute inset-0 overflow-hidden">
+              <div class="fixed inset-y-0 right-0 flex max-w-full pl-10">
+                <div x-show="slideOverOpen" @click.away="slideOverOpen = false"
+                  x-transition:enter="transform transition ease-in-out duration-500 sm:duration-700"
+                  x-transition:enter-start="translate-x-full" x-transition:enter-end="translate-x-0"
+                  x-transition:leave="transform transition ease-in-out duration-500 sm:duration-700"
+                  x-transition:leave-start="translate-x-0" x-transition:leave-end="translate-x-full"
+                  class="w-screen max-w-md">
+                  <div class="flex flex-col h-full py-5  bg-white border-l shadow-lg border-neutral-100/70">
+                    <div class="px-4 sm:px-5">
+                      <div class="flex items-start justify-between pb-1">
+                        <h2 class="text-base font-semibold leading-6 text-gray-900" id="slide-over-title">הגדרות</h2>
+                        <div class="flex items-center h-auto ml-3">
+                          <button @click="slideOverOpen=false"
+                            class="flex items-center justify-center px-3 py-2 text-xs font-medium uppercase border rounded-md border-neutral-200 text-neutral-600 hover:bg-neutral-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                              stroke="currentColor" class="w-4 h-4">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                            <span>סגור</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="relative flex-1 px-4 mt-5 sm:px-5">
+                      <div class="absolute inset-0 px-4 sm:px-5">
+                        <div
+                          class="relative h-full overflow-hidden border border-dashed rounded-md border-neutral-300 p-2">
+                          <div x-init="$watch('settings', () => onSettingsChangeHandler())">
+                            <div>
+                              <label for="checkbox">הצג רש"י</label>
+                              <input type="checkbox" id="checkbox" x-model="settings.showRasi" class="h-4 w-4">
+                            </div>
+                            <div class="mt-5 flex gap-4">
+                              <div class="flex items-center gap-2">
+                                <label for="pasuk">הצג לפי פסוק</label>
+                                <input type="radio" id="pasuk" value="pasuk" x-model="settings.order" class="h-4 w-4">
+                              </div>
+                              <div class="flex items-center gap-2">
+                                <label for="parasha">הצג לפי פרשה (פ/ס)</label>
+                                <input type="radio" value="parasha" id="parasha" x-model="settings.order"
+                                  class="h-4 w-4">
+                              </div>
+                            </div>
+                            <div class="mt-5 flex gap-4">
+                              <div class="flex items-center gap-2">
+                                <label for="israel">א"י</label>
+                                <input type="radio" value="israel" id="israel" x-model="settings.location"
+                                  class="h-4 w-4">
+                              </div>
+                              <div class="flex items-center gap-2">
+                                <label for="chul">חו"ל</label>
+                                <input type="radio" id="chul" value="chul" x-model="settings.location" class="h-4 w-4">
+                              </div>
+                            </div>
+                            <div class="mt-5" x-show="settings.order === 'pasuk'">
+                              <label for="pre-ine">הצג כל פסוק בשורה נפרדת</label>
+                              <input type="checkbox" id="pre-ine" x-model="settings.preLine" class="h-4 w-4">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </template>
+    </div>
+    <h1 class="text-center text-2xl font-semibold mt-6">שניים מקרא ואחד תרגום</h1>
+    <div class="flex items-center justify-between mt-6">
+      <div x-text="heDateAndParasha()"></div>
+      <div @click="toggleSettings"><img src="/settings.svg" alt=""></div>
+    </div>
+    <div class="flex justify-center items-center">
+      <select
+        class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-1"
+        x-model="selectParasha" @change="getText(selectParasha)">
+        <template x-for="[parashaEn, parashaHe] in Object.entries(parshiyot)">
+          <option :value="parashaEn" x-text="parashaHe" :selected="selectParasha === parashaEn"></option>
+        </template>
+      </select>
+    </div>
+    <div class="font-medium">פרשת <span x-text="parshiyot[selectParasha]"></span> </div>
+    <div class="text-justify" :class="settings.preLine && 'whitespace-pre-line'" x-html="text"></div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
