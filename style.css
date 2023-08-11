@@ -107,21 +107,32 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
-.container{
-  max-width: 800px;
-  margin: 0 auto;
-}
 
 .torah,.targum,.perek,.pasuk{
   font-family: 'SBL_Hbrw' ;
 }
 
+.perek,.pasuk{
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
 .torah{
-  font-size:large
+  font-size:1.2em;
+  font-weight: 400;
+} 
+
+.targum b{
+  font-weight: 400;
 }
 
 .rashi{
-  font-size:small;
+  font-size:0.8em;
+}
+
+.aliya{
+  background:#9ca3af ;
+  margin-top: -6px;
 }
 
 

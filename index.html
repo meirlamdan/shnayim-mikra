@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div class="container" x-data="app">
+  <div class="max-w-4xl mx-auto p-2" x-data="app">
 
     <!-- slide over for settings -->
     <div class="relative z-50 w-auto h-auto">
@@ -89,10 +89,11 @@
         </div>
       </template>
     </div>
+
     <h1 class="text-center text-2xl font-semibold mt-6">שניים מקרא ואחד תרגום</h1>
     <div class="flex items-center justify-between mt-6">
       <div x-text="heDateAndParasha()"></div>
-      <div @click="toggleSettings"><img src="/settings.svg" alt=""></div>
+      <div @click="toggleSettings" class="cursor-pointer"><img src="/settings.svg" alt=""></div>
     </div>
     <div class="flex justify-center items-center">
       <select
