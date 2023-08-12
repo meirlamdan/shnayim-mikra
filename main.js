@@ -35,7 +35,8 @@ Alpine.data('app', () => ({
     order: 'pasuk',
     showRasi: false,
     preLine: false,
-    location: navigator.language.startsWith('he') ? 'israel' : 'chul'
+    location: navigator.language.startsWith('he') ? 'israel' : 'chul',
+    fontSize: 18
   },
   heDateAndParasha() { return `${new HDate().renderGematriya(true)} פרשת ${this.parshiyot[this.parashatHasavua()]}` },
   getHDate() { return new HDate().renderGematriya(true) },

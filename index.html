@@ -77,6 +77,13 @@
                               <label for="pre-ine">הצג כל פסוק בשורה נפרדת</label>
                               <input type="checkbox" id="pre-ine" x-model="settings.preLine" class="h-4 w-4">
                             </div>
+                            <div x-data="{sizes:[14,16,18,20,22,24,26]}" class="mt-5">
+                              <div>גודל טקסט</div>
+                              <template x-for="(size,i) of sizes">
+                                <button x-text="i+1" @click="settings.fontSize = size" class="w-5 ml-3 rounded-full border text-xs border-gray-300"
+                                  :class="settings.fontSize === size &&'bg-blue-500 text-left-white'"></button>
+                              </template>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -105,7 +112,8 @@
       </select>
     </div>
     <div class="font-medium">פרשת <span x-text="parshiyot[selectParasha]"></span> </div>
-    <div class="text-justify" :class="settings.preLine && 'whitespace-pre-line'" x-html="text"></div>
+    <div class="text-justify" :class="settings.preLine && 'whitespace-pre-line'"
+      :style="{'font-size': `${settings.fontSize}px`}" x-html="text"></div>
   </div>
   <script type="module" src="/main.js"></script>
 </body>
