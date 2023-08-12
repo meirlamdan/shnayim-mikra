@@ -80,7 +80,8 @@
                             <div x-data="{sizes:[14,16,18,20,22,24,26]}" class="mt-5">
                               <div>גודל טקסט</div>
                               <template x-for="(size,i) of sizes">
-                                <button x-text="i+1" @click="settings.fontSize = size" class="w-5 ml-3 rounded-full border text-xs border-gray-300"
+                                <button x-text="i+1" @click="settings.fontSize = size"
+                                  class="w-5 ml-3 rounded-full border text-xs border-gray-300"
                                   :class="settings.fontSize === size &&'bg-blue-500 text-left-white'"></button>
                               </template>
                             </div>
@@ -100,9 +101,24 @@
     <h1 class="text-center text-2xl font-semibold mt-6">שניים מקרא ואחד תרגום</h1>
     <div class="flex items-center justify-between mt-6">
       <div x-text="heDateAndParasha()"></div>
-      <div @click="toggleSettings" class="cursor-pointer"><img src="/settings.svg" alt=""></div>
+      <div @click="toggleSettings" class="cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg"
+          class="stroke-1 hover:stroke-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
+          <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+        </svg></div>
     </div>
-    <div class="flex justify-center items-center">
+    <div class="flex justify-center items-center gap-x-20">
+      <div @click="moveParasha(true)">
+        <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer stroke-1 hover:stroke-2" width="24" height="24"
+          viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M9 6l6 6l-6 6"></path>
+        </svg>
+      </div>
       <select
         class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-1"
         x-model="selectParasha" @change="getText(selectParasha)">
@@ -110,6 +126,12 @@
           <option :value="parashaEn" x-text="parashaHe" :selected="selectParasha === parashaEn"></option>
         </template>
       </select>
+      <div @click="moveParasha()"><svg xmlns="http://www.w3.org/2000/svg"
+          class="cursor-pointer stroke-1 hover:stroke-2" width="24" height="24" viewBox="0 0 24 24"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M15 6l-6 6l6 6"></path>
+        </svg></div>
     </div>
     <div class="font-medium">פרשת <span x-text="parshiyot[selectParasha]"></span> </div>
     <div class="text-justify" :class="settings.preLine && 'whitespace-pre-line'"

@@ -29,7 +29,7 @@ Alpine.data('app', () => ({
   sedra: null,
   text: null,
   parshiyot,
-  selectParasha: 'Vaetchanan',
+  selectParasha: null,
   slideOverOpen: false,
   settings: {
     order: 'pasuk',
@@ -51,6 +51,26 @@ Alpine.data('app', () => ({
   },
   onSettingsChangeHandler() {
     localStorage.setItem('settings', JSON.stringify(this.settings))
+    this.getText()
+  },
+  moveParasha(isBackward = false) {
+    let index = Object.keys(parshiyot).findIndex(key => key === this.selectParasha)
+    if (isBackward) {
+      index--
+      if (Object.keys(parshiyot)[index]) {
+        this.selectParasha = Object.keys(parshiyot)[index]
+      } else {
+        this.selectParasha = Object.keys(parshiyot)[Object.keys(parshiyot).length - 1]
+      }
+    } else {
+      index++
+      if (Object.keys(parshiyot)[index]) {
+        this.selectParasha = Object.keys(parshiyot)[index]
+      }
+      else {
+        this.selectParasha = Object.keys(parshiyot)[0]
+      }
+    }
     this.getText()
   }
 }))
