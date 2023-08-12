@@ -17,24 +17,24 @@ export default async function getText(parashat, order = 'pasuk', showRashi = fal
   while (perekEnd > perekStart || (pasukEnd >= pasukStart && perekEnd === perekStart)) {
     const torah = torahText[perekStart][pasukStart];
     const targum = targumText[perekStart][pasukStart];
-    const rashi = rashiText?.[perekStart]?.[pasukStart];
+    const rashi = rashiText[perekStart][pasukStart];
     const [pasuk, perek] = getPasukAndPerekHe(pasukStart, perekStart);
     let aliya;
-    const [perekAliya, pasukAliya] = aliyot[0] ||[];
+    const [perekAliya, pasukAliya] = aliyot[0] || [];
     if (perekStart === perekAliya && pasukStart === pasukAliya) {
       aliyot.shift();
       aliya = aliyotName.shift();
     }
     if (order === 'pasuk') {
-      text += `<div>${aliya?`<span class="aliya">${aliya}</span>` : ''} ${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> <span class="torah">${torah}
+      text += `<div>${aliya ? `<span class="aliya">${aliya}</span>` : ''} ${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> <span class="torah">${torah}
       ${torah}</span>
       <span class="targum">${targum}</span>${rashi && showRashi ? `
       <span class="rashi">${rashi}</span>` : ''}</div>`;
     } else {
-      parasha += `${aliya?`<span class="aliya">${aliya}</span>` : ''} ${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${torah} `;
+      parasha += `${aliya ? `<span class="aliya">${aliya}</span>` : ''} ${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${torah} `;
       parasha2 += `${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${torah} `;
       parashaTrgum += `${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${targum} `;
-      if (rashi) {
+      if (rashi.length) {
         parashaRashi += `${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${rashi} `;
       }
       if (torah.endsWith('(ס)') || torah.endsWith('(פ)') || (pasukStart === pasukEnd && perekStart === perekEnd)) {
