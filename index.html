@@ -77,14 +77,11 @@
                                 <input type="radio" id="chul" value="chul" x-model="settings.location" class="h-4 w-4">
                               </div>
                             </div>
-                            <div x-data="{sizes:[14,16,18,20,22,24,26]}" class="mt-5">
-                              <div>גודל טקסט</div>
-                              <template x-for="(size,i) of sizes">
-                                <button x-text="i+1" @click="settings.fontSize = size"
-                                  class="w-5 ml-3 rounded-full border text-xs border-gray-300"
-                                  :class="settings.fontSize === size &&'bg-blue-500 text-white'">
-                                </button>
-                              </template>
+                            <div class="mt-5">
+                              <div> <label for="fontSize">גודל טקסט</label>
+                              </div>
+                              <input type="range" id="fontSize" name="cowbell" min="14" max="28"
+                                x-model="settings.fontSize" step="2" />
                             </div>
                           </div>
                         </div>
@@ -111,7 +108,7 @@
           <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
         </svg></div>
     </div>
-    <div class="flex justify-center items-center gap-x-20 mb-12" >
+    <div class="flex justify-center items-center gap-x-20 mb-12">
       <div @click="moveParasha(true)">
         <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer stroke-1 hover:stroke-2" width="24" height="24"
           viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
