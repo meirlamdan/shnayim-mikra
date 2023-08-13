@@ -62,6 +62,10 @@
                                   class="h-4 w-4">
                               </div>
                             </div>
+                            <div class="mt-5" x-show="settings.order === 'pasuk'">
+                              <label for="pre-ine">הצג כל פסוק בשורה נפרדת</label>
+                              <input type="checkbox" id="pre-ine" x-model="settings.preLine" class="h-4 w-4">
+                            </div>
                             <div class="mt-5 flex gap-4">
                               <div class="flex items-center gap-2">
                                 <label for="israel">א"י</label>
@@ -73,16 +77,13 @@
                                 <input type="radio" id="chul" value="chul" x-model="settings.location" class="h-4 w-4">
                               </div>
                             </div>
-                            <div class="mt-5" x-show="settings.order === 'pasuk'">
-                              <label for="pre-ine">הצג כל פסוק בשורה נפרדת</label>
-                              <input type="checkbox" id="pre-ine" x-model="settings.preLine" class="h-4 w-4">
-                            </div>
                             <div x-data="{sizes:[14,16,18,20,22,24,26]}" class="mt-5">
                               <div>גודל טקסט</div>
                               <template x-for="(size,i) of sizes">
                                 <button x-text="i+1" @click="settings.fontSize = size"
                                   class="w-5 ml-3 rounded-full border text-xs border-gray-300"
-                                  :class="settings.fontSize === size &&'bg-blue-500 text-left-white'"></button>
+                                  :class="settings.fontSize === size &&'bg-blue-500 text-white'">
+                                </button>
                               </template>
                             </div>
                           </div>
@@ -99,7 +100,7 @@
     </div>
 
     <h1 class="text-center text-2xl font-semibold mt-6">שניים מקרא ואחד תרגום</h1>
-    <div class="flex items-center justify-between mt-6">
+    <div class="flex items-center justify-between my-10">
       <div x-text="heDateAndParasha()"></div>
       <div @click="toggleSettings" class="cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg"
           class="stroke-1 hover:stroke-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1"
@@ -110,7 +111,7 @@
           <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
         </svg></div>
     </div>
-    <div class="flex justify-center items-center gap-x-20">
+    <div class="flex justify-center items-center gap-x-20 mb-12" >
       <div @click="moveParasha(true)">
         <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer stroke-1 hover:stroke-2" width="24" height="24"
           viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
@@ -126,9 +127,9 @@
           <option :value="parashaEn" x-text="parashaHe" :selected="selectParasha === parashaEn"></option>
         </template>
       </select>
-      <div @click="moveParasha()"><svg xmlns="http://www.w3.org/2000/svg"
-          class="cursor-pointer stroke-1 hover:stroke-2" width="24" height="24" viewBox="0 0 24 24"
-          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <div @click="moveParasha()"><svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer stroke-1 hover:stroke-2"
+          width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
           <path d="M15 6l-6 6l6 6"></path>
         </svg></div>

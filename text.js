@@ -40,6 +40,7 @@ export default async function getText(parashat, order = 'pasuk', showRashi = fal
       if (torah.endsWith('(ס)') || torah.endsWith('(פ)') || (pasukStart === pasukEnd && perekStart === perekEnd)) {
         text += `<div><span class="torah">${parasha}</span>  <span class="torah">${parasha2}</span> <span class="targum">${parashaTrgum}</span>${parashaRashi && showRashi ? `<span class="rashi">${parashaRashi}</span>` : ''}</div>`;
         parasha = '';
+        parasha2 = '';
         parashaTrgum = '';
         parashaRashi = '';
       }

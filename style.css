@@ -7,7 +7,7 @@
   font-family: 'SBL_Hbrw';
   font-style: normal;
   font-weight: 400;
-  src: local('SBL hebrew'), url('SBL_Hbrw.ttf') format('truetype'), url('SBL_Hbrw.eot') format('opentype');
+  src: local('SBL_Hbrw'), url('/SBL_Hbrw.ttf') format('truetype');
 }
 
 /* :root {
