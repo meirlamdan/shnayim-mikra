@@ -132,8 +132,11 @@
         </svg></div>
     </div>
     <div class="font-medium">פרשת <span x-text="parshiyot[selectParasha]"></span> </div>
-    <div class="text-justify" :class="settings.preLine && 'whitespace-pre-line'"
+    <div x-show="text" class="text-justify" :class="settings.preLine && 'whitespace-pre-line'"
       :style="{'font-size': `${settings.fontSize}px`}" x-html="text"></div>
+    <div class="flex justify-center items-center h-screen" x-show="!text">
+      <div class="loader"></div>
+    </div>
   </div>
   <script type="module" src="/main.js"></script>
 </body>
