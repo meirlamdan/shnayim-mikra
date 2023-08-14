@@ -107,6 +107,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+.parasha{
+  margin-top: 10px;
+}
 
 .torah,.targum,.perek,.pasuk{
   font-family: 'SBL_Hbrw' ;
