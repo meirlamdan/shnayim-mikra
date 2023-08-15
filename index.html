@@ -155,7 +155,7 @@
     </div>
 
     <h1 class="text-center text-2xl font-semibold mt-6">שניים מקרא ואחד תרגום</h1>
-    <div class="flex items-center justify-between my-10">
+    <div x-cloak class="flex items-center justify-between my-10">
       <div x-text="heDateAndParasha()"></div>
       <div @click="toggleSettings" class="cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg"
           class="stroke-1 hover:stroke-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1"
@@ -166,7 +166,7 @@
           <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
         </svg></div>
     </div>
-    <div class="flex justify-center items-center gap-x-20 mb-12">
+    <div x-cloak class="flex justify-center items-center gap-x-20 mb-12">
       <div @click="moveParasha(true)">
         <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer stroke-1 hover:stroke-2" width="24" height="24"
           viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
@@ -189,8 +189,8 @@
           <path d="M15 6l-6 6l6 6"></path>
         </svg></div>
     </div>
-    <div class="font-medium">פרשת <span x-text="parshiyot[selectParasha]"></span> </div>
-    <div x-show="text" class="text-justify" :class="settings.preLine && 'whitespace-pre-line'"
+    <div x-cloak class="font-medium">פרשת <span x-text="parshiyot[selectParasha]"></span> </div>
+    <div x-cloak x-show="text" class="text-justify" :class="settings.preLine && 'whitespace-pre-line'"
       :style="{'font-size': `${settings.fontSize}px`}" x-html="text"></div>
     <div class="flex justify-center items-center h-screen" x-show="!text">
       <div class="loader"></div>
