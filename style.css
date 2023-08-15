@@ -18,9 +18,14 @@
   font-family: 'SBL_Hbrw' ;
 }
 
-.perek,.pasuk{
+.pasuk{
   font-weight: 600;
   font-size: 0.8em;
+}
+
+.perek{
+  font-weight: 600;
+  font-size: 0.9em;
 }
 
 .torah{
