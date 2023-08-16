@@ -52,30 +52,42 @@
                               <label for="checkbox">הצג רש"י</label>
                               <input type="checkbox" id="checkbox" x-model="settings.showRasi" class="h-4 w-4">
                             </div>
-                            <div class="mt-5 flex gap-4">
-                              <div class="flex items-center gap-2">
-                                <label for="pasuk">חלוקה לפי פסוק</label>
-                                <input type="radio" id="pasuk" value="pasuk" x-model="settings.order" class="h-4 w-4">
-                              </div>
-                              <div class="flex items-center gap-2">
-                                <label for="parasha">חלוקה לפי פרשה (פ/ס)</label>
-                                <input type="radio" value="parasha" id="parasha" x-model="settings.order"
-                                  class="h-4 w-4">
+                            <div class="mt-5 gap-4">
+                              <div>חלוקה לפי:</div>
+                              <div class="flex gap-2">
+                                <div class="flex items-center gap-2">
+                                  <label for="pasuk" class="text-sm">פסוק</label>
+                                  <input type="radio" id="pasuk" value="pasuk" x-model="settings.order" class="h-4 w-4">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                  <label for="parasha" class="text-sm">פרשה (פ/ס)</label>
+                                  <input type="radio" value="parasha" id="parasha" x-model="settings.order"
+                                    class="h-4 w-4">
+                                </div>
+                                <div class="flex items-center gap-2">
+                                  <label for="aliya" class="text-sm">עלייה</label>
+                                  <input type="radio" value="aliya" id="aliya" x-model="settings.order" class="h-4 w-4">
+                                </div>
                               </div>
                             </div>
                             <div class="mt-5" x-show="settings.order === 'pasuk'">
                               <label for="pre-ine">הצג כל פסוק בשורה נפרדת</label>
                               <input type="checkbox" id="pre-ine" x-model="settings.preLine" class="h-4 w-4">
                             </div>
-                            <div class="mt-5 flex gap-4">
-                              <div class="flex items-center gap-2">
-                                <label for="israel">א"י</label>
-                                <input type="radio" value="israel" id="israel" x-model="settings.location"
-                                  class="h-4 w-4">
-                              </div>
-                              <div class="flex items-center gap-2">
-                                <label for="chul">חו"ל</label>
-                                <input type="radio" id="chul" value="chul" x-model="settings.location" class="h-4 w-4">
+                            <div class="mt-5">
+                              <div>פרשת השבוע:</div>
+                              <div class="flex gap-2">
+                                <div class="flex items-center gap-2">
+                                  <label for="israel" class="text-sm">א"י</label>
+                                  <input type="radio" value="israel" id="israel" x-model="settings.location"
+                                    class="h-4 w-4">
+                                </div>
+
+                                <div class="flex items-center gap-2">
+                                  <label for="chul" class="text-sm">חו"ל</label>
+                                  <input type="radio" id="chul" value="chul" x-model="settings.location"
+                                    class="h-4 w-4">
+                                </div>
                               </div>
                             </div>
                             <div class="mt-5">

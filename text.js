@@ -21,6 +21,15 @@ export default async function getText(parashat, order = 'pasuk', showRashi = fal
     const [pasuk, perek] = getPasukAndPerekHe(pasukStart, perekStart);
     let aliya;
     const [perekAliya, pasukAliya] = aliyot[0] || [];
+    let nextAliyaIsMaftir = aliyotName?.[0] === 'מפטיר';
+    let nextPasuk;
+    let nextPerek = perekStart;
+    if (torahText[perekStart].length - 1 > pasukStart) {
+      nextPasuk = pasukStart + 1;
+    } else {
+      nextPasuk = 0;
+      nextPerek++;
+    }
     if (perekStart === perekAliya && pasukStart === pasukAliya) {
       aliyot.shift();
       aliya = aliyotName.shift();
@@ -37,20 +46,24 @@ export default async function getText(parashat, order = 'pasuk', showRashi = fal
       if (rashi?.length) {
         parashaRashi += `${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${rashi} `;
       }
-      if (torah.endsWith('(ס)') || torah.endsWith('(פ)') || (pasukStart === pasukEnd && perekStart === perekEnd)) {
+      if (order === 'parasha' && ((torah.endsWith('(ס)') || torah.endsWith('(פ)') || (pasukStart === pasukEnd && perekStart === perekEnd)))) {
         text += `<div class="parasha">◈ <span class="torah">${parasha}</span>  <span class="torah">${parasha2}</span> <span class="targum">${parashaTrgum}</span>${parashaRashi && showRashi ? `<span class="rashi">${parashaRashi}</span>` : ''}</div>`;
         parasha = '';
         parasha2 = '';
         parashaTrgum = '';
         parashaRashi = '';
       }
+      if (order === 'aliya' && ((perekAliya === nextPerek && pasukAliya === nextPasuk && !nextAliyaIsMaftir) || (pasukStart === pasukEnd && perekStart === perekEnd))) {
+        text += `<div class="parasha"><span class="torah">${parasha}</span>  <span class="torah">${parasha2}</span> <span class="targum">${parashaTrgum}</span>${parashaRashi && showRashi ? `<span class="rashi">${parashaRashi}</span>` : ''}</div>`;
+        parasha = '';
+        parasha2 = '';
+        parashaTrgum = '';
+        parashaRashi = '';
+
+      }
     }
-    if (torahText[perekStart].length - 1 > pasukStart) {
-      pasukStart++;
-    } else {
-      pasukStart = 0;
-      perekStart++;
-    }
+    pasukStart = nextPasuk;
+    perekStart = nextPerek;
   }
   return text;
 }
