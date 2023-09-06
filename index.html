@@ -17,8 +17,8 @@
   </script>
 </head>
 
-<body>
-  <div class="max-w-4xl mx-auto p-2" x-data="app">
+<body class="bg-[#f1f3f6]">
+  <div class="max-w-4xl mx-auto" x-data="app">
 
     <!-- slide over for settings -->
     <div class="relative z-50 w-auto h-auto">
@@ -172,45 +172,47 @@
         </div>
       </template>
     </div>
-
-    <h1 class="text-center text-2xl font-semibold mt-6">שניים מקרא ואחד תרגום</h1>
-    <div x-cloak class="flex items-center justify-between my-10">
-      <div x-text="heDateAndParasha()"></div>
-      <div @click="toggleSettings" class="cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg"
-          class="stroke-1 hover:stroke-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1"
-          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path
-            d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
-          <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-        </svg></div>
-    </div>
-    <div x-cloak class="flex justify-center items-center gap-x-20 mb-12">
-      <div @click="moveParasha(true)">
-        <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer stroke-1 hover:stroke-2" width="24" height="24"
-          viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
-          stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <path d="M9 6l6 6l-6 6"></path>
-        </svg>
+    <div class="px-2 pt-6 pb-2">
+      <h1 class="text-center text-2xl font-semibold">שניים מקרא ואחד תרגום</h1>
+      <div x-cloak class="flex items-center justify-between my-10">
+        <div x-text="heDateAndParasha()"></div>
+        <div @click="toggleSettings" class="cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg"
+            class="stroke-1 hover:stroke-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1"
+            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
+            <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+          </svg></div>
       </div>
-      <select
-        class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-1"
-        x-model="selectParasha" @change="getText(selectParasha)">
-        <template x-for="p in parshiyotList">
-          <option :selected="selectParasha === p" x-text="p"></option>
-        </template>
-      </select>
-      <div @click="moveParasha()"><svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer stroke-1 hover:stroke-2"
-          width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-linecap="round"
-          stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <path d="M15 6l-6 6l6 6"></path>
-        </svg></div>
+      <div x-cloak class="flex justify-center items-center gap-x-20 mb-12">
+        <div @click="moveParasha(true)">
+          <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer stroke-1 hover:stroke-2" width="24" height="24"
+            viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M9 6l6 6l-6 6"></path>
+          </svg>
+        </div>
+        <select
+          class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-1"
+          x-model="selectParasha" @change="getText(selectParasha)">
+          <template x-for="p in parshiyotList">
+            <option :selected="selectParasha === p" x-text="p"></option>
+          </template>
+        </select>
+        <div @click="moveParasha()"><svg xmlns="http://www.w3.org/2000/svg"
+            class="cursor-pointer stroke-1 hover:stroke-2" width="24" height="24" viewBox="0 0 24 24"
+            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M15 6l-6 6l6 6"></path>
+          </svg></div>
+      </div>
+      <div x-cloak class="font-medium">פרשת <span x-text="selectParasha"></span> </div>
     </div>
-    <div x-cloak class="font-medium">פרשת <span x-text="selectParasha"></span> </div>
-    <div x-cloak x-show="text" class="text-justify" :class="settings.preLine && 'whitespace-pre-line'"
-      :style="{'font-size': `${settings.fontSize}px`}" x-html="text"></div>
+    <div x-cloak x-show="text" class="text-justify  bg-white py-3 px-5 shadow rounded"
+      :class="settings.preLine && 'whitespace-pre-line'" :style="{'font-size': `${settings.fontSize}px`}" x-html="text">
+    </div>
     <div class="flex justify-center items-center h-screen" x-show="!text">
       <div class="loader"></div>
     </div>
