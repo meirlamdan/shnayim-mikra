@@ -1,5 +1,5 @@
 {
-  "Bereshit": {
+  "בראשית": {
     "chumash": "bereishit",
     "start": [
       0,
@@ -40,7 +40,7 @@
       ]
     ]
   },
-  "Noach": {
+  "נח": {
     "chumash": "bereishit",
     "start": [
       5,
@@ -81,7 +81,7 @@
       ]
     ]
   },
-  "Lech-Lech": {
+  "לך לך": {
     "chumash": "bereishit",
     "start": [
       11,
@@ -122,7 +122,7 @@
       ]
     ]
   },
-  "Vayera": {
+  "וירא": {
     "chumash": "bereishit",
     "start": [
       17,
@@ -163,7 +163,7 @@
       ]
     ]
   },
-  "Chayei Sara": {
+  "חיי שרה": {
     "chumash": "bereishit",
     "start": [
       22,
@@ -204,7 +204,7 @@
       ]
     ]
   },
-  "Toldot": {
+  "תולדות": {
     "chumash": "bereishit",
     "start": [
       24,
@@ -245,7 +245,7 @@
       ]
     ]
   },
-  "Vayetzei": {
+  "ויצא": {
     "chumash": "bereishit",
     "start": [
       27,
@@ -286,7 +286,7 @@
       ]
     ]
   },
-  "Vayishlach": {
+  "וישלח": {
     "chumash": "bereishit",
     "start": [
       31,
@@ -327,7 +327,7 @@
       ]
     ]
   },
-  "Vayeshev": {
+  "וישב": {
     "chumash": "bereishit",
     "start": [
       36,
@@ -368,7 +368,7 @@
       ]
     ]
   },
-  "Miketz": {
+  "מקץ": {
     "chumash": "bereishit",
     "start": [
       40,
@@ -409,7 +409,7 @@
       ]
     ]
   },
-  "Vayigash": {
+  "ויגש": {
     "chumash": "bereishit",
     "start": [
       43,
@@ -450,7 +450,7 @@
       ]
     ]
   },
-  "Vayechi": {
+  "ויחי": {
     "chumash": "bereishit",
     "start": [
       46,
@@ -491,7 +491,7 @@
       ]
     ]
   },
-  "Shemot": {
+  "שמות": {
     "chumash": "shmot",
     "start": [
       0,
@@ -532,7 +532,7 @@
       ]
     ]
   },
-  "Vaera": {
+  "וארא": {
     "chumash": "shmot",
     "start": [
       5,
@@ -573,7 +573,7 @@
       ]
     ]
   },
-  "Bo": {
+  "בא": {
     "chumash": "shmot",
     "start": [
       9,
@@ -614,7 +614,7 @@
       ]
     ]
   },
-  "Beshalach": {
+  "בשלח": {
     "chumash": "shmot",
     "start": [
       12,
@@ -655,7 +655,7 @@
       ]
     ]
   },
-  "Yitro": {
+  "יתרו": {
     "chumash": "shmot",
     "start": [
       17,
@@ -696,7 +696,7 @@
       ]
     ]
   },
-  "Mishpatim": {
+  "משפטים": {
     "chumash": "shmot",
     "start": [
       20,
@@ -737,7 +737,7 @@
       ]
     ]
   },
-  "Terumah": {
+  "תרומה": {
     "chumash": "shmot",
     "start": [
       24,
@@ -778,7 +778,7 @@
       ]
     ]
   },
-  "Tetzaveh": {
+  "תצוה": {
     "chumash": "shmot",
     "start": [
       26,
@@ -819,7 +819,7 @@
       ]
     ]
   },
-  "Ki Tisa": {
+  "כי תשא": {
     "chumash": "shmot",
     "start": [
       29,
@@ -860,7 +860,7 @@
       ]
     ]
   },
-  "Vayakhel": {
+  "ויקהל": {
     "chumash": "shmot",
     "start": [
       34,
@@ -901,7 +901,7 @@
       ]
     ]
   },
-  "Pekudei": {
+  "פקודי": {
     "chumash": "shmot",
     "start": [
       37,
@@ -942,7 +942,7 @@
       ]
     ]
   },
-  "Vayikra": {
+  "ויקרא": {
     "chumash": "vayikra",
     "start": [
       0,
@@ -983,7 +983,7 @@
       ]
     ]
   },
-  "Tzav": {
+  "צו": {
     "chumash": "vayikra",
     "start": [
       5,
@@ -1024,7 +1024,7 @@
       ]
     ]
   },
-  "Shmini": {
+  "שמיני": {
     "chumash": "vayikra",
     "start": [
       8,
@@ -1065,7 +1065,7 @@
       ]
     ]
   },
-  "Tazria": {
+  "תזריע": {
     "chumash": "vayikra",
     "start": [
       11,
@@ -1106,7 +1106,7 @@
       ]
     ]
   },
-  "Metzora": {
+  "מצורע": {
     "chumash": "vayikra",
     "start": [
       13,
@@ -1147,7 +1147,7 @@
       ]
     ]
   },
-  "Achrei Mot": {
+  "אחרי מות": {
     "chumash": "vayikra",
     "start": [
       15,
@@ -1188,7 +1188,7 @@
       ]
     ]
   },
-  "Kedoshim": {
+  "קדושים": {
     "chumash": "vayikra",
     "start": [
       18,
@@ -1229,7 +1229,7 @@
       ]
     ]
   },
-  "Emor": {
+  "אמור": {
     "chumash": "vayikra",
     "start": [
       20,
@@ -1270,7 +1270,7 @@
       ]
     ]
   },
-  "Behar": {
+  "בהר": {
     "chumash": "vayikra",
     "start": [
       24,
@@ -1311,7 +1311,7 @@
       ]
     ]
   },
-  "Bechukotai": {
+  "בחוקותי": {
     "chumash": "vayikra",
     "start": [
       25,
@@ -1352,7 +1352,7 @@
       ]
     ]
   },
-  "Bamidbar": {
+  "במדבר": {
     "chumash": "bamidbar",
     "start": [
       0,
@@ -1393,7 +1393,7 @@
       ]
     ]
   },
-  "Nasso": {
+  "נשא": {
     "chumash": "bamidbar",
     "start": [
       3,
@@ -1434,7 +1434,7 @@
       ]
     ]
   },
-  "Beha'alotcha": {
+  "בהעלותך": {
     "chumash": "bamidbar",
     "start": [
       7,
@@ -1475,7 +1475,7 @@
       ]
     ]
   },
-  "Sh'lach": {
+  "שלח": {
     "chumash": "bamidbar",
     "start": [
       12,
@@ -1516,7 +1516,7 @@
       ]
     ]
   },
-  "Korach": {
+  "קרח": {
     "chumash": "bamidbar",
     "start": [
       15,
@@ -1557,7 +1557,7 @@
       ]
     ]
   },
-  "Chukat": {
+  "חוקת": {
     "chumash": "bamidbar",
     "start": [
       18,
@@ -1598,7 +1598,7 @@
       ]
     ]
   },
-  "Balak": {
+  "בלק": {
     "chumash": "bamidbar",
     "start": [
       21,
@@ -1639,7 +1639,7 @@
       ]
     ]
   },
-  "Pinchas": {
+  "פנחס": {
     "chumash": "bamidbar",
     "start": [
       24,
@@ -1680,7 +1680,7 @@
       ]
     ]
   },
-  "Matot": {
+  "מטות": {
     "chumash": "bamidbar",
     "start": [
       29,
@@ -1721,7 +1721,7 @@
       ]
     ]
   },
-  "Masei": {
+  "מסעי": {
     "chumash": "bamidbar",
     "start": [
       32,
@@ -1762,7 +1762,7 @@
       ]
     ]
   },
-  "Devarim": {
+  "דברים": {
     "chumash": "dvarim",
     "start": [
       0,
@@ -1803,7 +1803,7 @@
       ]
     ]
   },
-  "Vaetchanan": {
+  "ואתחנן": {
     "chumash": "dvarim",
     "start": [
       2,
@@ -1844,7 +1844,7 @@
       ]
     ]
   },
-  "Eikev": {
+  "עקב": {
     "chumash": "dvarim",
     "start": [
       6,
@@ -1881,7 +1881,7 @@
       ]
     ]
   },
-  "Re'eh": {
+  "ראה": {
     "chumash": "dvarim",
     "start": [
       10,
@@ -1922,7 +1922,7 @@
       ]
     ]
   },
-  "Shoftim": {
+  "שופטים": {
     "chumash": "dvarim",
     "start": [
       15,
@@ -1963,7 +1963,7 @@
       ]
     ]
   },
-  "Ki Teitzei": {
+  "כי תצא": {
     "chumash": "dvarim",
     "start": [
       20,
@@ -2004,7 +2004,7 @@
       ]
     ]
   },
-  "Ki Tavo": {
+  "כי תבוא": {
     "chumash": "dvarim",
     "start": [
       25,
@@ -2045,7 +2045,7 @@
       ]
     ]
   },
-  "Nitzavim": {
+  "נצבים": {
     "chumash": "dvarim",
     "start": [
       28,
@@ -2082,7 +2082,7 @@
       ]
     ]
   },
-  "Vayeilech": {
+  "וילך": {
     "chumash": "dvarim",
     "start": [
       30,
@@ -2123,7 +2123,44 @@
       ]
     ]
   },
-  "Ha'Azinu": {
+  "נצבים-וילך": {
+    "chumash": "dvarim",
+    "start": [
+      28,
+      8
+    ],
+    "end": [
+      30,
+      29
+    ],
+    "aliyot": [
+      [
+        29,
+        0
+      ],
+      [
+        29,
+        6
+      ],
+      [
+        29,
+        14
+      ],
+      [
+        30,
+        6
+      ],
+      [
+        30,
+        13
+      ],
+      [
+        30,
+        19
+      ]
+    ]
+  },
+  "האזינו": {
     "chumash": "dvarim",
     "start": [
       31,
@@ -2164,7 +2201,7 @@
       ]
     ]
   },
-  "vezot habrcha": {
+  "וזאת הברכה": {
     "chumash": "dvarim",
     "start": [
       32,

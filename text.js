@@ -1,6 +1,7 @@
 import parshiyot from './data/parshiyot.json' assert { type: 'json' };
 
 export default async function getText(parashat, order = 'pasuk', showRashi = false) {
+  console.log(parashat);
   let { chumash, start: [perekStart, pasukStart], end: [perekEnd, pasukEnd], aliyot } = parshiyot[parashat];
   const torahText = (await import(`./data/torah/${chumash}.json`)).text;
   const targumText = (await import(`./data/targum/${chumash}.json`)).text;

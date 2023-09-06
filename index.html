@@ -197,8 +197,8 @@
       <select
         class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-1"
         x-model="selectParasha" @change="getText(selectParasha)">
-        <template x-for="[parashaEn, parashaHe] in Object.entries(parshiyot)">
-          <option :value="parashaEn" x-text="parashaHe" :selected="selectParasha === parashaEn"></option>
+        <template x-for="p in parshiyotList">
+          <option :selected="selectParasha === p" x-text="p"></option>
         </template>
       </select>
       <div @click="moveParasha()"><svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer stroke-1 hover:stroke-2"
@@ -208,7 +208,7 @@
           <path d="M15 6l-6 6l6 6"></path>
         </svg></div>
     </div>
-    <div x-cloak class="font-medium">פרשת <span x-text="parshiyot[selectParasha]"></span> </div>
+    <div x-cloak class="font-medium">פרשת <span x-text="selectParasha"></span> </div>
     <div x-cloak x-show="text" class="text-justify" :class="settings.preLine && 'whitespace-pre-line'"
       :style="{'font-size': `${settings.fontSize}px`}" x-html="text"></div>
     <div class="flex justify-center items-center h-screen" x-show="!text">
