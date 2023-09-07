@@ -41,9 +41,10 @@
   font-size:0.8em;
 }
 
-.aliya{
+[id^="aliya"]{
   background:#9ca3af ;
   margin-top: -6px;
+  scroll-margin-top: 70px;
 }
 
 .loader {

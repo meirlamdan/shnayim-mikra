@@ -1,7 +1,6 @@
 import parshiyot from './data/parshiyot.json' assert { type: 'json' };
 
 export default async function getText(parashat, order = 'pasuk', showRashi = false) {
-  console.log(parashat);
   let { chumash, start: [perekStart, pasukStart], end: [perekEnd, pasukEnd], aliyot } = parshiyot[parashat];
   const torahText = (await import(`./data/torah/${chumash}.json`)).text;
   const targumText = (await import(`./data/targum/${chumash}.json`)).text;
@@ -15,6 +14,7 @@ export default async function getText(parashat, order = 'pasuk', showRashi = fal
   let parashaTrgum = '';
   let parashaRashi = '';
   const aliyotName = ['שני', 'שלישי', 'רביעי', 'חמישי', 'שישי', 'שביעי', 'מפטיר'];
+  let aliyaNumber = 0;
   while (perekEnd > perekStart || (pasukEnd >= pasukStart && perekEnd === perekStart)) {
     const torah = torahText[perekStart][pasukStart];
     const targum = targumText[perekStart][pasukStart];
@@ -34,14 +34,15 @@ export default async function getText(parashat, order = 'pasuk', showRashi = fal
     if (perekStart === perekAliya && pasukStart === pasukAliya) {
       aliyot.shift();
       aliya = aliyotName.shift();
+      aliyaNumber++;
     }
     if (order === 'pasuk') {
-      text += `<div>${aliya ? `<span class="aliya">${aliya}</span>` : ''} ${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> <span class="torah">${torah}
+      text += `<div>${aliya ? `<span id="aliya-${aliyaNumber}">${aliya}</span>` : ''} ${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> <span class="torah">${torah}
       ${torah}</span>
       <span class="targum">${targum}</span>${rashi && showRashi ? `
       <span class="rashi">${rashi}</span>` : ''}</div>`;
     } else {
-      parasha += `${aliya ? `<span class="aliya">${aliya}</span>` : ''} ${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${torah} `;
+      parasha += `${aliya ? `<span id="aliya-${aliyaNumber}">${aliya}</span>` : ''} ${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${torah} `;
       parasha2 += `${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${torah} `;
       parashaTrgum += `${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${targum} `;
       if (rashi?.length) {
