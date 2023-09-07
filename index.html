@@ -83,6 +83,10 @@
                               <input type="checkbox" id="pre-ine" x-model="settings.preLine" class="h-4 w-4">
                             </div>
                             <div class="mt-5">
+                              <label for="aliya-by-day">הצג עלייה לפי ימים</label>
+                              <input type="checkbox" id="aliya-by-day" x-model="settings.aliyaByDay" class="h-4 w-4">
+                            </div>
+                            <div class="mt-5">
                               <div>פרשת השבוע:</div>
                               <div class="flex gap-2">
                                 <div class="flex items-center gap-2">
@@ -208,7 +212,15 @@
             <path d="M15 6l-6 6l6 6"></path>
           </svg></div>
       </div>
+    </div>
+    <div class="sticky top-0 p-2 bg-[#f1f3f6]">
       <div x-cloak class="font-medium">פרשת <span x-text="selectParasha"></span> </div>
+      <div>
+        <template x-for="(aliya,i) in ['ראשון','שני','שלישי','רביעי','חמישי','שישי','שביעי']" :key="aliya">
+          <button class="bg-white ml-3 p-1 text-sm shadow rounded" :class="i===currentAliya&& 'bg-gray-300'"
+            x-text="aliya" @click="scrollToAliya(i)"></button>
+        </template>
+      </div>
     </div>
     <div x-cloak x-show="text" class="text-justify  bg-white py-3 px-5 shadow rounded"
       :class="settings.preLine && 'whitespace-pre-line'" :style="{'font-size': `${settings.fontSize}px`}" x-html="text">
