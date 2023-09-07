@@ -20,7 +20,6 @@ Alpine.data('app', () => ({
     window.addEventListener('scroll', (e) => {
       this.currentAliya = [1, 2, 3, 4, 5, 6].findLast(n => (document.getElementById(`aliya-${n}`).getBoundingClientRect().top + (window.innerHeight - 75)) < window.innerHeight) || 0
     })
-
   },
   parshiyotList: null,
   parashatHashavua: null,
@@ -39,10 +38,10 @@ Alpine.data('app', () => ({
   heDateAndParasha() { return `${new HDate().renderGematriya(true)} פרשת ${this.parashatHashavua}` },
   async getText() {
     this.text = await getText(this.selectParasha || this.parashatHashavua(), this.settings.order, this.settings.showRasi)
-    if (new Date().getDay() && this.settings.aliyaByDay) {
+    if (new Date().getDay() && this.settings.aliyaByDay && this.parashatHashavua === this.selectParasha) {
       setTimeout(() => {
         this.scrollToAliya(new Date().getDay(), 'instant')
-      }, 50);
+      }, 100);
     }
   },
   toggleSettings() {
@@ -66,7 +65,7 @@ Alpine.data('app', () => ({
     if (aliya === 0) {
       document.body.scrollIntoView({ behavior, block: 'start' })
     } else {
-      document.getElementById(`aliya-${aliya}`).scrollIntoView({ behavior: 'smooth', block: 'start' })
+      document.getElementById(`aliya-${aliya}`).scrollIntoView({ behavior, block: 'start' })
     }
   }
 }))
