@@ -41,7 +41,7 @@ Alpine.data('app', () => ({
     if (new Date().getDay() && this.settings.aliyaByDay && this.parashatHashavua === this.selectParasha) {
       setTimeout(() => {
         this.scrollToAliya(new Date().getDay(), 'instant')
-      }, 100);
+      }, 1000);
     }
   },
   toggleSettings() {

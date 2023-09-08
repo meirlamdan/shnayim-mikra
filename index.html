@@ -223,7 +223,7 @@
         </template>
       </div>
     </div>
-    <div x-cloak x-show="text" class="text-justify  bg-white py-3 px-5 shadow rounded"
+    <div x-cloak x-show="text" id="text" class="text-justify  bg-white py-3 px-5 shadow rounded"
       :class="settings.preLine && 'whitespace-pre-line'" :style="{'font-size': `${settings.fontSize}px`}" x-html="text">
     </div>
     <div class="flex justify-center items-center h-screen" x-show="!text">
