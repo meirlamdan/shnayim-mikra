@@ -189,7 +189,7 @@
             <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
           </svg></div>
       </div>
-      <div x-cloak class="flex justify-center items-center gap-x-20 mb-12">
+      <div x-cloak class="flex justify-center items-center gap-x-14 mb-10">
         <div @click="moveParasha(true)">
           <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer stroke-1 hover:stroke-2" width="24" height="24"
             viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
@@ -214,11 +214,11 @@
       </div>
     </div>
     <div class="sticky top-0 p-2 bg-[#f1f3f6]">
-      <div x-cloak class="font-medium">פרשת <span x-text="selectParasha"></span> </div>
+      <div x-cloak class="font-medium mb-1">פרשת <span x-text="selectParasha"></span> </div>
       <div>
         <template x-for="(aliya,i) in ['ראשון','שני','שלישי','רביעי','חמישי','שישי','שביעי']" :key="aliya">
-          <button class=" ml-3 p-1 text-sm shadow rounded" :class="i===currentAliya ? 'bg-gray-300': 'bg-white'"
-            x-text="aliya" @click="scrollToAliya(i)">
+          <button class=" ml-3 p-1 text-sm shadow rounded hover:bg-gray-100 transition-colors"
+            :class="i===currentAliya ? 'bg-gray-300': 'bg-white'" x-text="aliya" @click="scrollToAliya(i)">
           </button>
         </template>
       </div>
