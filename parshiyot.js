@@ -76,6 +76,7 @@ export const getParshiyotList = () => {
       list.push(parasha);
     }
   });
+  list.push('וזאת הברכה')
   return list;
 }
 
