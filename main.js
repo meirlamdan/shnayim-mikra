@@ -14,7 +14,7 @@ Alpine.data('app', () => ({
       this.settings = JSON.parse(localStorage.getItem('settings'))
     }
     this.parshiyotList = getParshiyotList()
-    this.selectParasha = trnslateParshiyot(new Sedra(new HDate().getFullYear(), this.settings.location === 'israel').get(new HDate()))
+    this.selectParasha = trnslateParshiyot(new Sedra(new HDate().getFullYear(), this.settings.location === 'israel').get(new HDate())) || trnslateParshiyot(new Sedra(new HDate().getFullYear(), this.settings.location === 'israel').get(new HDate().add(1, 'w')))
     this.parashatHashavua = this.selectParasha
     await this.getText()
     window.addEventListener('scroll', (e) => {
