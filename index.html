@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/Fa6SolidScrollTorah.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>שניים מקרא ואחד תרגום</title>
   <meta name="description"
     content="קריאת שניים מקרא ואחד תרגום. האתר יציג לכם בצורה נוחה ובהתאמה אישית את הקריאה של הפסוקים ואת התרגום, תצוגה רספונסיבית, מותאמת לשימוש בנייד." />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VHF5M16TPC"></script>
@@ -214,10 +215,10 @@
       </div>
     </div>
     <div class="sticky top-0 p-2 bg-[#f1f3f6]">
-      <div x-cloak class="font-medium mb-1">פרשת <span x-text="selectParasha"></span> </div>
+      <div x-cloak class="font-medium mb-2">פרשת <span x-text="selectParasha"></span> </div>
       <div>
         <template x-for="(aliya,i) in ['ראשון','שני','שלישי','רביעי','חמישי','שישי','שביעי']" :key="aliya">
-          <button class=" ml-3 p-1 text-sm shadow rounded hover:bg-gray-100 transition-colors"
+          <button class="ml-3 py-1 px-3 text-sm shadow rounded hover:bg-gray-100 transition-colors"
             :class="i===currentAliya ? 'bg-gray-300': 'bg-white'" x-text="aliya" @click="scrollToAliya(i)">
           </button>
         </template>
