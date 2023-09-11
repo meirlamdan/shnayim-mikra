@@ -4,6 +4,7 @@ import Alpine from 'alpinejs'
 import getText from './text';
 import { getParshiyotList, trnslateParshiyot } from './parshiyot';
 import './style.css';
+import { document } from 'postcss';
 
 
 window.Alpine = Alpine
@@ -14,11 +15,14 @@ Alpine.data('app', () => ({
       this.settings = JSON.parse(localStorage.getItem('settings'))
     }
     this.parshiyotList = getParshiyotList()
+    this.$watch('selectParasha', () => {
+      window.document.title = `${this.selectParasha} | שניים מקרא ואחד תרגום`;
+    })
     this.selectParasha = trnslateParshiyot(new Sedra(new HDate().getFullYear(), this.settings.location === 'israel').get(new HDate())) || trnslateParshiyot(new Sedra(new HDate().getFullYear(), this.settings.location === 'israel').get(new HDate().add(1, 'w')))
     this.parashatHashavua = this.selectParasha
     await this.getText()
     window.addEventListener('scroll', (e) => {
-      this.currentAliya = [1, 2, 3, 4, 5, 6].findLast(n => (document.getElementById(`aliya-${n}`).getBoundingClientRect().top + (window.innerHeight - 75)) < window.innerHeight) || 0
+      this.currentAliya = [1, 2, 3, 4, 5, 6].findLast(n => (window.document.getElementById(`aliya-${n}`).getBoundingClientRect().top + (window.innerHeight - 75)) < window.innerHeight) || 0
     })
   },
   parshiyotList: null,
@@ -63,9 +67,9 @@ Alpine.data('app', () => ({
   },
   scrollToAliya(aliya, behavior = 'smooth') {
     if (aliya === 0) {
-      document.body.scrollIntoView({ behavior, block: 'start' })
+      window.document.body.scrollIntoView({ behavior, block: 'start' })
     } else {
-      document.getElementById(`aliya-${aliya}`).scrollIntoView({ behavior, block: 'start' })
+      window.document.getElementById(`aliya-${aliya}`)?.scrollIntoView({ behavior, block: 'start' })
     }
   }
 }))

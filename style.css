@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
   font-family: 'SBL_Hbrw';
   font-style: normal;
@@ -10,39 +9,42 @@
   src: local('SBL_Hbrw'), url('/SBL_Hbrw.ttf') format('truetype');
 }
 
-.parasha{
+.parasha {
   margin-top: 10px;
 }
 
-.torah,.targum,.perek,.pasuk{
-  font-family: 'SBL_Hbrw' ;
+.torah,
+.targum,
+.perek,
+.pasuk {
+  font-family: 'SBL_Hbrw';
 }
 
-.pasuk{
+.pasuk {
   font-weight: 600;
   font-size: 0.8em;
 }
 
-.perek{
+.perek {
   font-weight: 600;
   font-size: 0.9em;
 }
 
-.torah{
-  font-size:1.2em;
-  font-weight: 400;
-} 
-
-.targum b{
+.torah {
+  font-size: 1.2em;
   font-weight: 400;
 }
 
-.rashi{
-  font-size:0.8em;
+.targum b {
+  font-weight: 400;
 }
 
-[id^="aliya"]{
-  background:#9ca3af ;
+.rashi {
+  font-size: 0.8em;
+}
+
+[id^="aliya"] {
+  background: #9ca3af;
   margin-top: -6px;
   scroll-margin-top: 70px;
 }
@@ -57,11 +59,15 @@
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-[x-cloak] { display: none !important; }
-
-
-
+[x-cloak] {
+  display: none !important;
+}

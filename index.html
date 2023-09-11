@@ -213,11 +213,11 @@
           </svg></div>
       </div>
     </div>
-    <div class="sticky top-0 p-2 bg-[#f1f3f6]">
+    <div class="sticky top-0 p-2 bg-[#f1f3f6] m-[-5px]">
       <div x-cloak class="font-medium mb-1">פרשת <span x-text="selectParasha"></span> </div>
       <div>
         <template x-for="(aliya,i) in ['ראשון','שני','שלישי','רביעי','חמישי','שישי','שביעי']" :key="aliya">
-          <button class=" ml-3 p-1 text-sm shadow rounded hover:bg-gray-100 transition-colors"
+          <button class=" ml-3 p-1 text-sm shadow rounded hover:bg-gray-50 transition-colors"
             :class="i===currentAliya ? 'bg-gray-300': 'bg-white'" x-text="aliya" @click="scrollToAliya(i)">
           </button>
         </template>
