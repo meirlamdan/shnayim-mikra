@@ -22,7 +22,7 @@ Alpine.data('app', () => ({
     this.parashatHashavua = this.selectParasha
     await this.getText()
     window.addEventListener('scroll', (e) => {
-      this.currentAliya = [1, 2, 3, 4, 5, 6].findLast(n => (window.document.getElementById(`aliya-${n}`).getBoundingClientRect().top + (window.innerHeight - 80)) < window.innerHeight) || 0
+      this.currentAliya = [1, 2, 3, 4, 5, 6].find(n => window.document.getElementById(`aliya-${n}`).getBoundingClientRect().top - 80 <= 0 && (n === 6 || window.document.getElementById(`aliya-${n + 1}`).getBoundingClientRect().top - 80 > 0)) || 0
     })
   },
   parshiyotList: null,
