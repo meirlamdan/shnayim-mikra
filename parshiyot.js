@@ -81,6 +81,9 @@ export const getParshiyotList = () => {
 }
 
 export const trnslateParshiyot = (arr) => {
+  if (arr[0] === 'Shmini Atzeret') {
+    return 'וזאת הברכה'
+  }
   return arr.length === 1 ? parshiyotHebrew[arr[0]] : `${parshiyotHebrew[arr[0]]}-${parshiyotHebrew[arr[1]]}`
 
 }
