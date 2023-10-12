@@ -217,7 +217,7 @@
       <div x-cloak class="font-medium mb-1">פרשת <span x-text="selectParasha"></span> </div>
       <div>
         <template x-for="(aliya,i) in ['ראשון','שני','שלישי','רביעי','חמישי','שישי','שביעי']" :key="aliya">
-          <button class=" ml-3 p-1 text-sm shadow rounded hover:bg-gray-50 transition-colors"
+          <button class=" ml-3 p-1 text-sm shadow rounded transition-colors"
             :class="i===currentAliya ? 'bg-gray-300': 'bg-white'" x-text="aliya" @click="scrollToAliya(i)">
           </button>
         </template>
