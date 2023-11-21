@@ -4,7 +4,6 @@ import Alpine from 'alpinejs'
 import getText from './text';
 import { getParshiyotList, trnslateParshiyot } from './parshiyot';
 import './style.css';
-import { document } from 'postcss';
 
 
 window.Alpine = Alpine
@@ -15,9 +14,9 @@ Alpine.data('app', () => ({
       this.settings = JSON.parse(localStorage.getItem('settings'))
     }
     this.parshiyotList = getParshiyotList()
-    this.$watch('selectParasha', () => {
-      window.document.title = `${this.selectParasha} | שניים מקרא ואחד תרגום`;
-    })
+    // this.$watch('selectParasha', () => {
+    //   window.document.title = `${this.selectParasha} | שניים מקרא ואחד תרגום`;
+    // })
     this.selectParasha = trnslateParshiyot(new Sedra(new HDate().getFullYear(), this.settings.location === 'israel').get(new HDate())) || trnslateParshiyot(new Sedra(new HDate().getFullYear(), this.settings.location === 'israel').get(new HDate().add(1, 'w')))
     this.parashatHashavua = this.selectParasha
     await this.getText()
