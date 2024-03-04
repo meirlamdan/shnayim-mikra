@@ -1,7 +1,7 @@
 import parshiyot from './data/parshiyot.json' assert { type: 'json' };
 
 export default async function getText(parashat, order = 'pasuk', showRashi = false) {
-  let { chumash, start: [perekStart, pasukStart], end: [perekEnd, pasukEnd], aliyot } = parshiyot[parashat];
+  let { chumash, start: [perekStart, pasukStart], end: [perekEnd, pasukEnd], aliyot } = structuredClone(parshiyot[parashat]);
   const torahText = (await import(`./data/torah/${chumash}.json`)).text;
   const targumText = (await import(`./data/targum/${chumash}.json`)).text;
   let rashiText = '';
