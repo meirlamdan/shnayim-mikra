@@ -40,13 +40,13 @@ export default async function getText(parashat, order = 'pasuk', showRashi = fal
       text += `<div>${aliya ? `<span id="aliya-${aliyaNumber}">${aliya}</span>` : ''} ${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> <span class="torah">${torah}
       ${torah}</span>
       <span class="targum">${targum}</span>${rashi && showRashi ? `
-      <span class="rashi">${rashi}</span>` : ''}</div>`;
+      <span class="rashi">${rashi.join(' ')}</span>` : ''}</div>`;
     } else {
       parasha += `${aliya ? `<span id="aliya-${aliyaNumber}">${aliya}</span>` : ''} ${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${torah} `;
       parasha2 += `${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${torah} `;
       parashaTrgum += `${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${targum} `;
       if (rashi?.length) {
-        parashaRashi += `${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${rashi} `;
+        parashaRashi += `${perek ? `<span class="perek">${perek}</span>` : ''} <span class="pasuk">${pasuk}</span> ${rashi.join(' ')} `;
       }
       if (order === 'parasha' && ((torah.endsWith('(ס)') || torah.endsWith('(פ)') || (pasukStart === pasukEnd && perekStart === perekEnd)))) {
         text += `<div class="parasha">◈ <span class="torah">${parasha}</span>  <span class="torah">${parasha2}</span> <span class="targum">${parashaTrgum}</span>${parashaRashi && showRashi ? `<span class="rashi">${parashaRashi}</span>` : ''}</div>`;
