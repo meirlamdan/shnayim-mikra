@@ -9,6 +9,13 @@
   src: local('SBL_Hbrw'), url('/SBL_Hbrw.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Mekorot-Rashi';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mekorot-Rashi'), url('/Mekorot-Rashi.ttf') format('truetype');
+}
+
 .parasha {
   margin-top: 10px;
 }
@@ -41,6 +48,9 @@
 
 .rashi {
   font-size: 0.8em;
+  font-family: 'Mekorot-Rashi';
+  word-spacing: 1px;
+  letter-spacing: 0.2px;
 }
 
 [id^="aliya"] {

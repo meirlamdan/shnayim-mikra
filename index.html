@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="קריאת שניים מקרא ואחד תרגום. האתר יציג לכם בצורה נוחה ובהתאמה אישית את הקריאה של הפסוקים ואת התרגום, תצוגה רספונסיבית, מותאמת לשימוש בנייד." />
-    <title>שניים מקרא ואחד תרגום - לקריאה נוחה אונליין</title>
+  <title>שניים מקרא ואחד תרגום - לקריאה נוחה אונליין</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VHF5M16TPC"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -57,7 +57,7 @@
                         <div
                           class="relative h-full overflow-hidden border border-dashed rounded-md border-neutral-300 p-2">
                           <div x-init="$watch('settings', () => onSettingsChangeHandler())">
-                            <div>
+                            <div class="flex items-center gap-2">
                               <label for="checkbox">הצג רש"י</label>
                               <input type="checkbox" id="checkbox" x-model="settings.showRasi" class="h-4 w-4">
                             </div>
@@ -74,18 +74,19 @@
                                     class="h-4 w-4">
                                 </div>
                                 <div class="flex items-center gap-2">
-                                  <label for="aliya" class="text-sm">עלייה</label>
-                                  <input type="radio" value="aliya" id="aliya" x-model="settings.order" class="h-4 w-4">
+                                  <label for="ali" class="text-sm">עלייה</label>
+                                  <input type="radio" id="ali" value="aliya" x-model="settings.order"
+                                    class="h-4 w-4">
                                 </div>
                               </div>
                             </div>
-                            <div class="mt-5" x-show="settings.order === 'pasuk'">
+                            <div class="flex items-center gap-2 mt-5" x-show="settings.order === 'pasuk'">
                               <label for="pre-ine">הצג כל פסוק בשורה נפרדת</label>
                               <input type="checkbox" id="pre-ine" x-model="settings.preLine" class="h-4 w-4">
                             </div>
-                            <div class="mt-5">
-                              <label for="aliya-by-day">הצג עלייה לפי ימים</label>
-                              <input type="checkbox" id="aliya-by-day" x-model="settings.aliyaByDay" class="h-4 w-4">
+                            <div class="flex items-center gap-2 mt-5" x-show="settings.order === 'pasuk'">
+                              <label for="by-day">הצג עלייה לפי ימים</label>
+                              <input type="checkbox" id="by-day" x-model="settings.aliyaByDay" class="h-4 w-4">
                             </div>
                             <div class="mt-5">
                               <div>פרשת השבוע:</div>
