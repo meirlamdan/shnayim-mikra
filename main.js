@@ -33,7 +33,7 @@ Alpine.data('app', () => ({
   settings: {
     order: 'pasuk',
     showRasi: false,
-    preLine: false,
+    preLine: true,
     location: navigator.language.startsWith('he') ? 'israel' : 'chul',
     fontSize: 20,
     aliyaByDay: false
