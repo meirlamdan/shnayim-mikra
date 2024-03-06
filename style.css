@@ -51,10 +51,7 @@
 }
 
 .font-rashi .rashi {
-  font-size: 0.8em;
   font-family: 'Mekorot-Rashi';
-  word-spacing: 1px;
-  letter-spacing: 0.2px;
 }
 
 .rashi {
