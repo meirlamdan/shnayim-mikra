@@ -11,7 +11,8 @@ window.Alpine = Alpine
 Alpine.data('app', () => ({
   async init() {
     if (localStorage.getItem('settings')) {
-      this.settings = JSON.parse(localStorage.getItem('settings'))
+      const settings = JSON.parse(localStorage.getItem('settings'))
+      Object.assign(this.settings, settings)
     }
     this.parshiyotList = getParshiyotList()
     // this.$watch('selectParasha', () => {
@@ -32,15 +33,17 @@ Alpine.data('app', () => ({
   currentAliya: 0,
   settings: {
     order: 'pasuk',
-    showRasi: false,
+    showRashi: false,
     preLine: true,
     location: navigator.language.startsWith('he') ? 'israel' : 'chul',
     fontSize: 20,
-    aliyaByDay: false
+    aliyaByDay: false,
+    fontRashi: true,
+    rashiNikud: true
   },
   heDateAndParasha() { return `${new HDate().renderGematriya(true)} פרשת ${this.parashatHashavua}` },
   async getText() {
-    this.text = await getText(this.selectParasha || this.parashatHashavua(), this.settings.order, this.settings.showRasi)
+    this.text = await getText(this.selectParasha || this.parashatHashavua(), this.settings.order, this.settings.showRashi, this.settings.rashiNikud)
     if (new Date().getDay() && this.settings.aliyaByDay && this.parashatHashavua === this.selectParasha) {
       setTimeout(() => {
         this.scrollToAliya(new Date().getDay(), 'instant')

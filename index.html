@@ -57,10 +57,6 @@
                         <div
                           class="relative h-full overflow-hidden border border-dashed rounded-md border-neutral-300 p-2">
                           <div x-init="$watch('settings', () => onSettingsChangeHandler())">
-                            <div class="flex items-center gap-2">
-                              <label for="checkbox">הצג רש"י</label>
-                              <input type="checkbox" id="checkbox" x-model="settings.showRasi" class="h-4 w-4">
-                            </div>
                             <div class="mt-5 gap-4">
                               <div>חלוקה לפי:</div>
                               <div class="flex gap-2">
@@ -75,8 +71,7 @@
                                 </div>
                                 <div class="flex items-center gap-2">
                                   <label for="ali" class="text-sm">עלייה</label>
-                                  <input type="radio" id="ali" value="aliya" x-model="settings.order"
-                                    class="h-4 w-4">
+                                  <input type="radio" id="ali" value="aliya" x-model="settings.order" class="h-4 w-4">
                                 </div>
                               </div>
                             </div>
@@ -102,6 +97,20 @@
                                   <input type="radio" id="chul" value="chul" x-model="settings.location"
                                     class="h-4 w-4">
                                 </div>
+                              </div>
+                            </div>
+                            <div class="flex items-center gap-2 mt-5">
+                              <label for="checkbox">הצג רש"י</label>
+                              <input type="checkbox" id="checkbox" x-model="settings.showRashi" class="h-4 w-4">
+                            </div>
+                            <div x-show="settings.showRashi" class="text-sm flex gap-3">
+                              <div class="flex items-center gap-2" >
+                                <label for="font-rashi">כתב רש"י</label>
+                                <input type="checkbox" id="font-rashi" x-model="settings.fontRashi">
+                              </div>
+                              <div class="flex items-center gap-2">
+                                <label for="nikud">הצג ניקוד</label>
+                                <input type="checkbox" id="nikud" x-model="settings.rashiNikud">
                               </div>
                             </div>
                             <div class="mt-5">
@@ -226,7 +235,8 @@
       </div>
     </div>
     <div x-cloak x-show="text" id="text" class="text-justify  bg-white py-3 px-5 shadow rounded"
-      :class="settings.preLine && 'whitespace-pre-line'" :style="{'font-size': `${settings.fontSize}px`}" x-html="text">
+      :class="{'whitespace-pre-line':settings.preLine, 'font-rashi': settings.fontRashi}"
+      :style="{'font-size': `${settings.fontSize}px`}" x-html="text">
     </div>
     <div class="flex justify-center items-center h-screen" x-show="!text">
       <div class="loader"></div>
