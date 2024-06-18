@@ -2,11 +2,14 @@ import parshiyot from './data/parshiyot.json' assert { type: 'json' };
 
 export default async function getText(parashat, order = 'pasuk', showRashi = false, rashiNikud) {
   let { chumash, start: [perekStart, pasukStart], end: [perekEnd, pasukEnd], aliyot } = structuredClone(parshiyot[parashat]);
-  const torahText = (await import(`./data/torah/${chumash}.json`)).text;
-  const targumText = (await import(`./data/targum/${chumash}.json`)).text;
-  let rashiText = '';
+  const promises = [import(`./data/torah/${chumash}.json`), import(`./data/targum/${chumash}.json`)];
   if (showRashi) {
-    rashiText = (await import(`./data/rashi/${chumash}.json`)).text;
+    promises.push(import(`./data/rashi/${chumash}.json`));
+  }
+  const [{ text: torahText }, { text: targumText }, r] = await Promise.all(promises);
+  let rashiText = ''
+  if (r) {
+    rashiText = r.text
   }
   let text = '';
   let parasha = '';
@@ -19,7 +22,7 @@ export default async function getText(parashat, order = 'pasuk', showRashi = fal
     const torah = torahText[perekStart][pasukStart];
     const targum = targumText[perekStart][pasukStart];
     let rashi = rashiText?.[perekStart]?.[pasukStart]?.join(' ');
-    if(rashi && !rashiNikud) {
+    if (rashi && !rashiNikud) {
       rashi = rashi.replace(/[\u0591-\u05C7]/g, '')
     }
     const [pasuk, perek] = getPasukAndPerekHe(pasukStart, perekStart);
