@@ -1,0 +1,13 @@
+{
+  "name": "שניים מקרא",
+  "icons": [
+    {
+      "src": "svg/Fa6SolidScrollTorah.svg",
+      "type": "image/svg+xml",
+      "sizes": " any"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "any"
+}
