@@ -61,7 +61,7 @@ const parshiyotHebrew = {
   Vayigash: 'ויגש', Vayechi: 'ויחי', Shemot: 'שמות', Vaera: 'וארא', Bo: 'בא', Beshalach: 'בשלח', Yitro: 'יתרו', Mishpatim: 'משפטים', Terumah: 'תרומה', Tetzaveh: 'תצוה',
   'Ki Tisa': 'כי תשא', Vayakhel: 'ויקהל', Pekudei: 'פקודי', Vayikra: 'ויקרא', Tzav: 'צו', Shmini: 'שמיני', Tazria: 'תזריע', Metzora: 'מצורע', 'Achrei Mot': 'אחרי מות', Kedoshim: 'קדושים', Emor: 'אמור',
   Behar: 'בהר', Bechukotai: 'בחוקותי', Bamidbar: 'במדבר', Nasso: 'נשא', 'Beha\'alotcha': 'בהעלותך', 'Sh\'lach': 'שלח', Korach: 'קורח', Chukat: 'חוקת', Balak: 'בלק', Pinchas: 'פנחס', Matot: 'מטות', Masei: 'מסעי',
-  Devarim: 'דברים', Vaetchanan: 'ואתחנן', Eikev: 'עקב', "Re'eh": 'ראה', Shoftim: 'שופטים', 'Ki Teitzei': 'כי תצא', 'Ki Tavo': 'כי תבוא', Nitzavim: 'נצבים', Vayeilech: 'וילך', 'Ha\'Azinu': 'האזינו', 'vezot habrcha': 'וזאת הברכה'
+  Devarim: 'דברים', Vaetchanan: 'ואתחנן', Eikev: 'עקב', "Re'eh": 'ראה', Shoftim: 'שופטים', 'Ki Teitzei': 'כי תצא', 'Ki Tavo': 'כי תבוא', Nitzavim: 'נצבים', Vayeilech: 'וילך', 'Ha\'Azinu': 'האזינו', 'Sukkot Shabbat Chol ha-Moed': 'וזאת הברכה'
 };
 
 export const getParshiyotList = () => {
