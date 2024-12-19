@@ -40,10 +40,14 @@
 .torah {
   font-size: 1.2em;
   font-weight: 400;
+  [id^="aliya"]{
+    font-size: 0.9em !important;
+  }
 }
 
 .targum {
   font-size: 1.1em;
+  color: #555555;
 }
 
 .targum b {
@@ -59,9 +63,15 @@
 }
 
 [id^="aliya"] {
-  background: #9ca3af;
+  font-family: 'SBL_Hbrw';
+  background-color:#d1d5db;
+  line-height: 1.2;
+  display: inline-block;
   margin-top: -6px;
   scroll-margin-top: 75px;
+  padding: 0 4px;
+  border-radius: 3px;
+  font-size: 1em
 }
 
 .loader {
