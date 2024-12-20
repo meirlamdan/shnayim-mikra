@@ -19,9 +19,8 @@
   </script>
 </head>
 
-<body class="bg-[#f1f3f6]">
-  <div class="max-w-4xl mx-auto" x-data="app">
-
+<body class="bg-[#f1f3f6] dark:bg-gray-900 dark:text-white transition-colors duration-300" x-data="app">
+  <div class="max-w-4xl mx-auto">
     <!-- slide over for settings -->
     <div class="relative z-50 w-auto h-auto">
       <template x-teleport="body">
@@ -37,13 +36,14 @@
                   x-transition:leave="transform transition ease-in-out duration-500 sm:duration-700"
                   x-transition:leave-start="translate-x-0" x-transition:leave-end="translate-x-full"
                   class="w-screen max-w-md">
-                  <div class="flex flex-col h-full py-5  bg-white border-l shadow-lg border-neutral-100/70">
+                  <div
+                    class="flex flex-col h-full py-5  bg-white dark:bg-gray-900 border-l shadow-lg border-neutral-100/70 dark:border-gray-700">
                     <div class="px-4 sm:px-5">
                       <div class="flex items-start justify-between pb-1">
                         <h2 class="text-base font-semibold leading-6 text-gray-900" id="slide-over-title">הגדרות</h2>
                         <div class="flex items-center h-auto ml-3">
                           <button @click="slideOverOpen=false"
-                            class="flex items-center justify-center px-3 py-2 text-xs font-medium uppercase border rounded-md border-neutral-200 text-neutral-600 hover:bg-neutral-100">
+                            class="flex items-center justify-center px-3 py-2 text-xs font-medium uppercase border rounded-md border-neutral-200 text-neutral-600 hover:bg-neutral-100 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                               stroke="currentColor" class="w-4 h-4">
                               <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
@@ -56,9 +56,30 @@
                     <div class="relative flex-1 px-4 mt-5 sm:px-5">
                       <div class="absolute inset-0 px-4 sm:px-5">
                         <div
-                          class="relative h-full overflow-hidden border border-dashed rounded-md border-neutral-300 p-2">
+                          class="relative h-full overflow-hidden border border-dashed rounded-md border-neutral-300 dark:border-gray-600 p-2">
                           <div x-init="$watch('settings', () => onSettingsChangeHandler())">
                             <div class="mt-5 gap-4">
+                              <div class="mb-5">
+                                <button @click="toggleDarkMode()" class="flex items-center justify-center p-2 rounded-lg transition-colors duration-200
+                                           bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700
+                                           focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                  :aria-label="isDarkMode ? 'עבור למצב בהיר' : 'עבור למצב כהה'">
+                                  <!-- Sun Icon -->
+                                  <svg x-show="isDarkMode" class="w-5 h-5 text-gray-200"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                                  </svg>
+                                  <!-- Moon Icon -->
+                                  <svg x-show="!isDarkMode" class="w-5 h-5 text-gray-700"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                                  </svg>
+                                </button>
+                              </div>
                               <div>חלוקה לפי:</div>
                               <div class="flex gap-2">
                                 <div class="flex items-center gap-2">
@@ -121,7 +142,7 @@
                                 x-model="settings.fontSize" step="2" />
                             </div>
                           </div>
-                          <div class="absolute bottom-0 right-0 left-0 bg-gray-100 w-full p-3">
+                          <div class="absolute bottom-0 right-0 left-0 bg-gray-100 dark:bg-gray-800 w-full p-3">
                             <div class="text-center text-sm">
                               צור קשר: <a href="mailto:meir3252@gmail.com">meir3252@gmail.com</a>
                             </div>
@@ -175,7 +196,7 @@
           </svg>
         </div>
         <select
-          class="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-1"
+          class="border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-gray-300 dark:bg-gray-800 text-sm rounded-lg focus:ring-blue-500 dark:focus:ring-blue-400 focus:outline-none p-1 custom-scrollbar"
           x-model="selectParasha" @change="getText(selectParasha)">
           <template x-for="p in parshiyotList">
             <option :selected="selectParasha === p" x-text="p"></option>
@@ -189,17 +210,18 @@
           </svg></div>
       </div>
     </div>
-    <div class="sticky top-0 p-2 bg-[#f1f3f6] m-x[-5px]">
+    <div class="sticky top-0 p-2 bg-[#f1f3f6] dark:bg-gray-900 m-x[-5px]">
       <div x-cloak class="font-medium mb-1">פרשת <span x-text="selectParasha"></span> </div>
       <div>
         <template x-for="(aliya,i) in ['ראשון','שני','שלישי','רביעי','חמישי','שישי','שביעי']" :key="aliya">
           <button class=" ml-3 p-1 text-sm shadow rounded transition-colors"
-            :class="i===currentAliya ? 'bg-gray-300': 'bg-white'" x-text="aliya" @click="scrollToAliya(i)">
+            :class="i===currentAliya ? 'bg-gray-300 dark:bg-gray-700': 'bg-white dark:bg-gray-800'" x-text="aliya"
+            @click="scrollToAliya(i)">
           </button>
         </template>
       </div>
     </div>
-    <div x-cloak x-show="text" id="text" class="text-justify  bg-white py-3 px-5 shadow rounded"
+    <div x-cloak x-show="text" id="text" class="text-justify  bg-white dark:dark:bg-gray-800 py-3 px-5 shadow rounded"
       :class="{'whitespace-pre-line':settings.preLine, 'font-rashi': settings.fontRashi}"
       :style="{'font-size': `${settings.fontSize}px`}" x-html="text">
     </div>

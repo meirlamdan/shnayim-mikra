@@ -10,6 +10,8 @@ window.Alpine = Alpine
 
 Alpine.data('app', () => ({
   async init() {
+    this.isDarkMode = localStorage.getItem('darkMode') === 'true'
+    document.documentElement.classList.toggle('dark', this.isDarkMode)
     if (localStorage.getItem('settings')) {
       const settings = JSON.parse(localStorage.getItem('settings'))
       Object.assign(this.settings, settings)
@@ -31,6 +33,7 @@ Alpine.data('app', () => ({
   selectParasha: null,
   slideOverOpen: false,
   currentAliya: 0,
+  isDarkMode: false,
   settings: {
     order: 'pasuk',
     showRashi: false,
@@ -39,7 +42,7 @@ Alpine.data('app', () => ({
     fontSize: 20,
     aliyaByDay: false,
     fontRashi: true,
-    rashiNikud: true
+    rashiNikud: true,
   },
   heDateAndParasha() { return `${new HDate().renderGematriya(true)} פרשת ${this.parashatHashavua}` },
   async getText() {
@@ -73,6 +76,10 @@ Alpine.data('app', () => ({
     } else {
       window.document.getElementById(`aliya-${aliya}`)?.scrollIntoView({ behavior, block: 'start' })
     }
+  }, toggleDarkMode() {
+    this.isDarkMode = !this.isDarkMode
+    document.documentElement.classList.toggle('dark', this.isDarkMode)
+    localStorage.setItem('darkMode', this.isDarkMode)
   }
 }))
 
