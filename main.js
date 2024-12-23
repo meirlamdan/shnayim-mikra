@@ -25,6 +25,8 @@ Alpine.data('app', () => ({
     await this.getText()
     window.addEventListener('scroll', (e) => {
       this.currentAliya = [1, 2, 3, 4, 5, 6].find(n => window.document.getElementById(`aliya-${n}`).getBoundingClientRect().top - 80 <= 0 && (n === 6 || window.document.getElementById(`aliya-${n + 1}`).getBoundingClientRect().top - 80 > 0)) || 0
+      addEventListener("beforeprint", (event) => { this.$refs.text.style.fontSize = '16px' });
+      addEventListener("afterprint", (event) => { this.$refs.text.style.fontSize = `${this.settings.fontSize}px` });
     })
   },
   parshiyotList: null,

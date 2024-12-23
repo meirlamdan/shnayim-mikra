@@ -235,7 +235,7 @@
         </template>
       </div>
     </div>
-    <div x-cloak x-show="text" id="text"
+    <div x-cloak x-show="text" id="text" x-ref="text"
       class="text-justify  bg-white dark:dark:bg-gray-800 py-3 px-5 shadow rounded print:shadow-none print:rounded-none"
       :class="{'whitespace-pre-line':settings.preLine, 'font-rashi': settings.fontRashi}"
       :style="{'font-size': `${settings.fontSize}px`}" x-html="text">
