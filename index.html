@@ -174,19 +174,33 @@
     <!--  end slide over  -->
 
     <div class="px-2 pt-6 pb-2">
-      <h1 class="text-center text-2xl font-semibold">שניים מקרא ואחד תרגום</h1>
-      <div x-cloak class="flex items-center justify-between my-10">
-        <div x-text="heDateAndParasha()"></div>
-        <div @click="toggleSettings" class="cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg"
-            class="stroke-1 hover:stroke-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1"
-            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path
-              d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
-            <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-          </svg></div>
+      <h1 class="text-center text-2xl font-semibold print:text-xl">שניים מקרא ואחד תרגום</h1>
+      <div class="hidden print:block text-center text-xl print:text-lg font-semibold mb-7">פרשת <span
+          x-text="selectParasha"></span>
       </div>
-      <div x-cloak class="flex justify-center items-center gap-x-14 mb-10">
+      <div x-cloak class="flex items-center justify-between my-10 print:hidden">
+        <div x-text="heDateAndParasha()"></div>
+        <div class="flex gap-4">
+          <div @click="window.print()" class="cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-1 hover:stroke-[8]" width="24" height="24"
+              viewBox="0 0 256 256" stroke-linecap="round" stroke="currentColor">
+              <path fill="currentColor"
+                d="M214.67 76H196V40a4 4 0 0 0-4-4H64a4 4 0 0 0-4 4v36H41.33C29.57 76 20 85 20 96v80a4 4 0 0 0 4 4h36v36a4 4 0 0 0 4 4h128a4 4 0 0 0 4-4v-36h36a4 4 0 0 0 4-4V96c0-11-9.57-20-21.33-20M68 44h120v32H68Zm120 168H68v-56h120Zm40-40h-32v-20a4 4 0 0 0-4-4H64a4 4 0 0 0-4 4v20H28V96c0-6.62 6-12 13.33-12h173.34C222 84 228 89.38 228 96Zm-32-56a8 8 0 1 1-8-8a8 8 0 0 1 8 8" />
+            </svg>
+          </div>
+          <div @click="toggleSettings" class="cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-1 hover:stroke-2" width="24" height="24"
+              viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
+              <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div x-cloak class="flex justify-center items-center gap-x-10 mb-10 print:hidden">
         <div @click="moveParasha(true)">
           <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer stroke-1 hover:stroke-2" width="24" height="24"
             viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
@@ -210,7 +224,7 @@
           </svg></div>
       </div>
     </div>
-    <div class="sticky top-0 p-2 bg-[#f1f3f6] dark:bg-gray-900 m-x[-5px]">
+    <div class="sticky top-0 p-2 bg-[#f1f3f6] dark:bg-gray-900 m-x[-5px] print:hidden">
       <div x-cloak class="font-medium mb-1">פרשת <span x-text="selectParasha"></span> </div>
       <div>
         <template x-for="(aliya,i) in ['ראשון','שני','שלישי','רביעי','חמישי','שישי','שביעי']" :key="aliya">
@@ -221,10 +235,13 @@
         </template>
       </div>
     </div>
-    <div x-cloak x-show="text" id="text" class="text-justify  bg-white dark:dark:bg-gray-800 py-3 px-5 shadow rounded"
+    <div x-cloak x-show="text" id="text"
+      class="text-justify  bg-white dark:dark:bg-gray-800 py-3 px-5 shadow rounded print:shadow-none print:rounded-none"
       :class="{'whitespace-pre-line':settings.preLine, 'font-rashi': settings.fontRashi}"
       :style="{'font-size': `${settings.fontSize}px`}" x-html="text">
     </div>
+    <div class="hidden print:block text-center mt-5"><a :href="location.href">הודפס מאתר <span x-text="location.host"
+          class="text-blue-950 underline"></span></a></div>
     <div class="flex justify-center items-center h-screen" x-show="!text">
       <div class="loader"></div>
     </div>
