@@ -67,9 +67,9 @@ onMounted(() => {
 <template>
   <div class="sticky top-0 p-2 bg-gray-100 dark:bg-gray-900 print:hidden">
     <div class="font-medium text-xl mb-1">פרשת <span>{{ parashaHe }}</span> </div>
-    <div class="flex gap-2">
+    <div class="flex gap-1 md:gap-2">
       <UButton v-for="(aliya, i) in aliyot" :key="aliya" @click="scrollToAliya(i)" :label="aliya" size="sm"
-        variant="outline" color="neutral" :active="i === currentAliya" active-variant="subtle"
+        class="px-1.5 md:px-2.5" variant="outline" color="neutral" :active="i === currentAliya" active-variant="subtle"
         active-class="font-semibold" />
     </div>
   </div>
@@ -103,6 +103,13 @@ onMounted(() => {
             <span class="ml-2 font-semibold text-[0.8em]">{{ pasuk }}</span>
             <span class="text-[1.2em]">{{ torah }}</span>
           </span>
+          <span v-for="({ torah, pasuk, perek }, j) in item" :key="j" class="me-2">
+            <span class="ml-2 font-semibold text-[0.9em]" v-if="perek">{{ perek }}</span>
+            <span class="ml-2 font-semibold text-[0.8em]">{{ pasuk }}</span>
+            <span class="text-[1.2em]">{{ torah }}</span>
+          </span>
+        </div>
+        <div class="font-sbl">
         </div>
         <div class="font-sbl">
           <span v-for="({ targum, pasuk, perek }, i) in item" :key="i" class="me-2  text-[#555] dark:text-gray-300">

@@ -14,8 +14,8 @@ const defaultSettings = {
   location: 'israel',
   fontSize: 20,
   aliyaByDay: false,
-  fontRashi: true,
-  rashiNikud: true
+  fontRashi: false,
+  rashiNikud: false
 } as Settings
 export const useSettings = () => {
   const settings = useCookie<Settings>('settings', { default: () => defaultSettings, maxAge: 315360000 })
