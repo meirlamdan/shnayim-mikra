@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-heebo: 'Heebo', sans-serif;
+  --font-sbl: "SBL_Hbrw", "sans-serif";
+  --font-rashi: "Mekorot-Rashi", "sans-serif";
+}
+
+:root {
+  --ui-primary: black;
+}
+
+.dark {
+  --ui-primary: white;
+}
