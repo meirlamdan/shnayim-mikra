@@ -76,7 +76,7 @@ onMounted(() => {
   <div :style="{ 'font-size': `${settings?.fontSize}px` }" :ref="fontSizeContainer"
     class="text-justify bg-white dark:bg-gray-800 py-3 px-5 shadow rounded print:shadow-none print:rounded-none">
     <div v-if="settings.order === 'pasuk'">
-      <div v-for="(item, i) in data" :key="i" class="mb-3">
+      <div v-for="(item, i) in data" :key="i" class="mb-6">
         <div class="font-sbl">
           <span v-if="item.aliya"
             class="bg-gray-300 dark:bg-gray-600 leading-[1.2] inline-block -mt-1.5 ml-2 scroll-mt-[75px] px-1 rounded text-[1em]"
@@ -86,9 +86,9 @@ onMounted(() => {
           <span class="text-[1.2em]">{{ item.torah }}</span>
         </div>
         <div class="text-[1.2em] font-sbl">{{ item.torah }}</div>
-        <div class="text-[1.1em] font-sbl text-[#555] dark:text-gray-300 targum" v-html="item.targum"></div>
+        <div class="text-[1.1em] font-sbl text-gray-500 dark:text-gray-300 targum" v-html="item.targum"></div>
         <div v-if="item.rashi" class="mt-1 text-[0.7em]" :class="{ 'font-rashi': settings.fontRashi }"
-          v-html="settings.rashiNikud ? item.rashi.join('  ') : item.rashi.join('  ').replace(/[\u0591-\u05C7]/g, '')">
+          v-html="item.rashi.join('  ')">
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@ onMounted(() => {
         <div class="font-sbl">
         </div>
         <div class="font-sbl">
-          <span v-for="({ targum, pasuk, perek }, i) in item" :key="i" class="me-2  text-[#555] dark:text-gray-300">
+          <span v-for="({ targum, pasuk, perek }, i) in item" :key="i" class="me-2  text-gray-500 dark:text-gray-300">
             <span class="ml-2 font-semibold text-[0.8em]" v-if="perek">{{ perek }}</span>
             <span class="ml-2 font-semibold text-[0.7em]">{{ pasuk }}</span>
             <span class="text-[1.1em] targum" v-html="targum"></span>
@@ -125,7 +125,7 @@ onMounted(() => {
               <span class="ml-2 font-semibold text-[0.9em]" v-if="perek">{{ perek }}</span>
               <span class="ml-2 font-semibold text-[0.8em]">{{ pasuk }}</span>
               <span
-                v-html="settings.rashiNikud ? rashi.join('  ') : rashi.join('  ').replace(/[\u0591-\u05C7]/g, '')"></span>
+                v-html="rashi.join('  ')"></span>
             </span>
           </span>
         </div>

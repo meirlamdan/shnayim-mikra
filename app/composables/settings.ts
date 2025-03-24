@@ -5,7 +5,6 @@ type Settings = {
   fontSize: number
   aliyaByDay: boolean
   fontRashi: boolean
-  rashiNikud: boolean
 }
 
 const defaultSettings = {
@@ -14,8 +13,7 @@ const defaultSettings = {
   location: 'israel',
   fontSize: 20,
   aliyaByDay: false,
-  fontRashi: false,
-  rashiNikud: false
+  fontRashi: true,
 } as Settings
 export const useSettings = () => {
   const settings = useCookie<Settings>('settings', { default: () => defaultSettings, maxAge: 315360000 })

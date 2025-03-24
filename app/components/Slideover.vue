@@ -60,7 +60,6 @@ const toggleDarkMode = () => {
 
       <div v-if="settings.showRashi" class="flex gap-3 mt-3">
         <UCheckbox size="sm" label='כתב רש"י' v-model="settings.fontRashi" />
-        <UCheckbox size="sm" label='הצג ניקוד' v-model="settings.rashiNikud" />
       </div>
       <div class="mt-6">
         <div> <label for="fontSize">גודל טקסט</label>
