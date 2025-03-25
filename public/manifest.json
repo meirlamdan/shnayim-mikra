@@ -1,0 +1,15 @@
+{
+  "name": "שניים מקרא",
+  "icons": [
+    {
+      "src": "https://shnayim-mikra.netlify.app/logo.png",
+      "sizes": "300x300",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://shnayim-mikra.netlify.app/",
+  "display": "standalone",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "description": "שניים מקרא ואחד תרגום"
+}
