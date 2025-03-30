@@ -124,8 +124,7 @@ onMounted(() => {
             <span v-if="rashi?.length" class="me-2">
               <span class="ml-2 font-semibold text-[0.9em]" v-if="perek">{{ perek }}</span>
               <span class="ml-2 font-semibold text-[0.8em]">{{ pasuk }}</span>
-              <span
-                v-html="rashi.join('  ')"></span>
+              <span v-html="rashi.join('  ')"></span>
             </span>
           </span>
         </div>

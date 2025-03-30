@@ -35,7 +35,7 @@ onMounted(() => {
 })
 
 useSeoMeta({
-  title: () => `שניים מקרא ואחד תרגום - פרשת ${parashaHe.value}`,
+  title: () => `שניים מקרא ואחד תרגום - פרשת ${value.value ? parashaHe.value : 'השבוע'}`,
   description: "קריאת שניים מקרא ואחד תרגום אונליין. האתר יציג לכם בצורה נוחה ובהתאמה אישית את הקריאה של הפסוקים ואת התרגום, תצוגה רספונסיבית, מותאמת לשימוש בנייד."
 
 })
@@ -85,7 +85,7 @@ app.runWithContext(() => {
         <div class="hidden print:block text-center mt-5">
           <a :href="location?.href">הודפס מאתר <span class="text-blue-950 underline">{{
             location?.host
-              }}</span>
+          }}</span>
           </a>
         </div>
       </div>
