@@ -137,6 +137,12 @@ export default {
     end: [39, 37],
     aliyot: [[38, 1], [38, 21], [38, 32], [39, 0], [39, 16], [39, 27], [39, 33]]
   },
+  "vayakhel-pekudei": {
+    chumash: "shmot",
+    start: [34, 0],
+    end: [39, 37],
+    aliyot: []
+  },
   "vayikra": {
     chumash: "vayikra",
     start: [0, 0],
@@ -167,6 +173,12 @@ export default {
     end: [14, 32],
     aliyot: [[13, 12], [13, 20], [13, 32], [13, 53], [14, 15], [14, 28], [14, 30]]
   },
+  "tazria-metzora": {
+    chumash: "vayikra",
+    start: [11, 0],
+    end: [14, 32],
+    aliyot: []
+  },
   "achrei-mot": {
     chumash: "vayikra",
     start: [15, 0],
@@ -178,6 +190,12 @@ export default {
     start: [18, 0],
     end: [19, 26],
     aliyot: [[18, 14], [18, 22], [18, 32], [19, 0], [19, 7], [19, 22], [19, 24]]
+  },
+  "achrei-mot-kedoshim": {
+    chumash: "vayikra",
+    start: [15, 0],
+    end: [19, 26],
+    aliyot: []
   },
   "emor": {
     chumash: "vayikra",
@@ -196,6 +214,12 @@ export default {
     start: [25, 2],
     end: [26, 33],
     aliyot: [[25, 5], [25, 9], [26, 0], [26, 15], [26, 21], [26, 28], [26, 31]]
+  },
+  "behar-bechukotai": {
+    chumash: "vayikra",
+    start: [24, 0],
+    end: [26, 33],
+    aliyot: []
   },
   "bamidbar": {
     chumash: "bamidbar",
@@ -239,6 +263,12 @@ export default {
     end: [24, 8],
     aliyot: [[21, 12], [21, 20], [21, 38], [22, 12], [22, 26], [23, 13], [24, 6]]
   },
+  "chukat-balak": {
+    chumash: "bamidbar",
+    start: [18, 0],
+    end: [24, 8],
+    aliyot: []
+  },
   "pinchas": {
     chumash: "bamidbar",
     start: [24, 9],
@@ -257,7 +287,7 @@ export default {
     end: [35, 12],
     aliyot: [[32, 10], [32, 49], [33, 15], [34, 0], [34, 8], [35, 0], [35, 10]]
   },
-  "מטות-מסעי": {
+  "matot-masei": {
     chumash: "bamidbar",
     start: [29, 1],
     end: [35, 12],
@@ -317,7 +347,7 @@ export default {
     end: [30, 29],
     aliyot: [[30, 3], [30, 6], [30, 9], [30, 13], [30, 19], [30, 24], [30, 27]]
   },
-  "נצבים-וילך": {
+  "nitzavim-vayeilech": {
     chumash: "dvarim",
     start: [28, 8],
     end: [30, 29],

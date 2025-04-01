@@ -4,7 +4,7 @@ const { weeklyParshaObject, parshiyotList } = await useParsha()
 
 const value = computed({
   get() {
-    return useRoute().params.parasha as string
+    return useRoute().params.parasha as string || weeklyParshaObject?.route
   },
   set(value) {
     value
@@ -33,15 +33,13 @@ const location = ref()
 onMounted(() => {
   location.value = window.location
 })
-
-useSeoMeta({
+useHead({
   title: () => `שניים מקרא ואחד תרגום - פרשת ${value.value ? parashaHe.value : 'השבוע'}`,
-  description: "קריאת שניים מקרא ואחד תרגום אונליין. האתר יציג לכם בצורה נוחה ובהתאמה אישית את הקריאה של הפסוקים ואת התרגום, תצוגה רספונסיבית, מותאמת לשימוש בנייד."
+  link: [
+    { rel: 'canonical', href: `https://shnayim-mikra.netlify.app${value.value ? `/${value.value}` : ''}` },
+  ]
+})
 
-})
-const app = useNuxtApp()
-app.runWithContext(() => {
-})
 </script>
 <template>
   <UApp>

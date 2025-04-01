@@ -13,10 +13,12 @@ type Psuk = {
   aliya?: string | null
 }
 export default defineCachedEventHandler(async (event) => {
-  const parasha = getRouterParam(event, 'parasha')
+  let parasha = getRouterParam(event, 'parasha')
   const { showRashi } = getQuery(event)
   const withRashi = showRashi === 'true'
-
+  if (!parshiyot[parasha as Parasha]) {
+    parasha = 'bereshit'
+  }
   let { chumash, start: [perekStart, pasukStart], end: [perekEnd, pasukEnd], aliyot } = parshiyot[parasha as Parasha];
   // const __filename = fileURLToPath(import.meta.url)
   // const __dirname = dirname(__filename)

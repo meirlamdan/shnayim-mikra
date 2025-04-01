@@ -26,16 +26,20 @@ export const useParsha = async () => {
     { he: "כי תשא", hebcal: "Ki Tisa", route: "ki-tisa" },
     { he: "ויקהל", hebcal: "Vayakhel", route: "vayakhel" },
     { he: "פקודי", hebcal: "Pekudei", route: "pekudei" },
+    { he: "ויקהל-פקודי", hebcal: "Vayakhel Pekudei", route: "vayakhel-pekudei" },
     { he: "ויקרא", hebcal: "Vayikra", route: "vayikra" },
     { he: "צו", hebcal: "Tzav", route: "tzav" },
     { he: "שמיני", hebcal: "Shmini", route: "shmini" },
     { he: "תזריע", hebcal: "Tazria", route: "tazria" },
     { he: "מצורע", hebcal: "Metzora", route: "metzora" },
+    { he: "תזריע-מצורע", hebcal: "Tazria Metzora", route: "tazria-metzora" },
     { he: "אחרי מות", hebcal: "Achrei Mot", route: "achrei-mot" },
     { he: "קדושים", hebcal: "Kedoshim", route: "kedoshim" },
     { he: "אמור", hebcal: "Emor", route: "emor" },
+    { he: "אחרי מות-קדושים", hebcal: "Achrei Mot Kedoshim", route: "achrei-mot-kedoshim" },
     { he: "בהר", hebcal: "Behar", route: "behar" },
     { he: "בחוקותי", hebcal: "Bechukotai", route: "bechukotai" },
+    { he: "בהר-בחוקותי", hebcal: "Behar Bechukotai", route: "behar-bechukotai" },
     { he: "במדבר", hebcal: "Bamidbar", route: "bamidbar" },
     { he: "נשא", hebcal: "Nasso", route: "nasso" },
     { he: "בהעלותך", hebcal: "Beha'alotcha", route: "behaalotcha" },
@@ -43,9 +47,11 @@ export const useParsha = async () => {
     { he: "קורח", hebcal: "Korach", route: "korach" },
     { he: "חקת", hebcal: "Chukat", route: "chukat" },
     { he: "בלק", hebcal: "Balak", route: "balak" },
+    { he: "חקת-בלק", hebcal: "Chukat Balak", route: "chukat-balak" },
     { he: "פנחס", hebcal: "Pinchas", route: "pinchas" },
     { he: "מטות", hebcal: "Matot", route: "matot" },
     { he: "מסעי", hebcal: "Masei", route: "masei" },
+    { he: "מטות-מסעי", hebcal: "Matot Masei", route: "matot-masei" },
     { he: "דברים", hebcal: "Devarim", route: "devarim" },
     { he: "ואתחנן", hebcal: "Vaetchanan", route: "vaetchanan" },
     { he: "עקב", hebcal: "Eikev", route: "eikev" },
@@ -55,9 +61,10 @@ export const useParsha = async () => {
     { he: "כי תבוא", hebcal: "Ki Tavo", route: "ki-tavo" },
     { he: "נצבים", hebcal: "Nitzavim", route: "nitzavim" },
     { he: "וילך", hebcal: "Vayeilech", route: "vayeilech" },
+    { he: "נצבים-וילך", hebcal: "Nitzavim Vayeilech", route: "nitzavim-vayeilech" },
     { he: "האזינו", hebcal: "Ha'Azinu", route: "haazinu" },
     { he: "וזאת הברכה", hebcal: "V'Zot HaBerachah", route: "vzot-haberachah" }
-  ].filter(({ hebcal }) => parshiyotOfYear.includes(hebcal))
+  ].filter(({ hebcal }) => parshiyotOfYear.includes(hebcal) || hebcal === "V'Zot HaBerachah")
 
   const weeklyParsha = new Sedra(new HDate().getFullYear(), settings.value.location === 'israel').lookup(new HDate()).parsha
   return {
