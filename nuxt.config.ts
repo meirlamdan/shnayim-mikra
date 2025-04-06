@@ -19,6 +19,7 @@ export default defineNuxtConfig({
       ],
       meta: [
         { name: 'description', content: "קריאת שניים מקרא ואחד תרגום אונליין. האתר יציג לכם בצורה נוחה ובהתאמה אישית את הקריאה של הפסוקים ואת התרגום, תצוגה רספונסיבית, מותאמת לשימוש בנייד." },
+        { name: "google-site-verification", content: "RBy0Z0KAsMV7IQgSTddjj8bTQgJATzFgkwrkReMDGQ0" }
       ]
     },
   },
