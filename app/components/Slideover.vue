@@ -56,10 +56,11 @@ const toggleDarkMode = () => {
       <URadioGroup class="mt-5" dir="rtl" legend="פרשת השבוע:" v-model="settings.location" :items="locationOptions"
         orientation="horizontal" />
       <UCheckbox class="mt-6" label=" גלול אוטומטית לעלייה של היום הנוכחי (לדוגמה ביום שני - לעלייה של שני)"   v-model="settings.aliyaByDay" />
-      <UCheckbox class="mt-6" label='הצג רש"י' v-model="settings.showRashi" />
+      <UCheckbox class="mt-6" label=' הצג רש"י (והצעות לפירושים נוספים)' v-model="settings.showRashi" />
 
       <div v-if="settings.showRashi" class="flex gap-3 mt-3">
         <UCheckbox size="sm" label='כתב רש"י' v-model="settings.fontRashi" />
+        <UCheckbox size="sm" label='הסתר הצעות לפירושים נוספים' v-model="settings.disableMeforshim" />
       </div>
       <div class="mt-6">
         <div> <label for="fontSize">גודל טקסט</label>

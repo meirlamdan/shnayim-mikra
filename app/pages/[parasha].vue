@@ -8,6 +8,46 @@ const { data, pending, error, refresh } = await useFetch(`/api/data/${parasha}`,
   query: { showRashi }
 })
 
+const showMeforshim = ref({})
+const getPirush = async (pirush, index) => {
+  if (showMeforshim.value[index]?.[pirush] === 'open') {
+    showMeforshim.value[index][pirush] = 'close'
+    return
+  }
+
+  if (data.value[index][pirush]) {
+    showMeforshim.value[index] ||= {}
+    showMeforshim.value[index][pirush] = 'open'
+    return
+  }
+  showMeforshim.value[index] ||= {}
+  showMeforshim.value[index][pirush] = 'loading'
+  const meforesh = await $fetch('/api/meforshim/ramban', {
+    query: { parasha }
+  })
+  meforesh.forEach((m, index) => {
+    data.value[index][pirush] = m
+  })
+  showMeforshim.value[index][pirush] = 'open'
+}
+
+const meforshim = {
+  'ramban': 'רמב"ן',
+  'evenEzra': 'אבן-עזרא',
+}
+
+const meforshimOrdered = (mf, isMultiple) => {
+  if (isMultiple) {
+    const arr = []
+    mf.forEach(m => {
+      arr.push(...m.meforshim)
+    })
+    mf = [...new Set(arr)]
+  }
+  const allMeforshim = Object.keys(meforshim)
+  return allMeforshim.filter(m => mf.includes(m))
+}
+
 const orderedData = computed(() => {
   const arr = [[]]
   if (!data.value) return
@@ -90,6 +130,24 @@ onMounted(() => {
         <div v-if="item.rashi" class="mt-1 text-[0.7em]" :class="{ 'font-rashi': settings.fontRashi }"
           v-html="item.rashi.join('  ')">
         </div>
+        <div v-if="item.meforshim?.length && !settings.disableMeforshim">
+          <div class="flex gap-1">
+            <UBadge class="font-bold" color="neutral"
+              :variant="showMeforshim[i]?.[pirush] === 'open' ? 'outline' : 'soft'"
+              :icon="showMeforshim[i]?.[pirush] === 'loading' ? 'svg-spinners:6-dots-rotate' : ''"
+              @click="getPirush(pirush, i)" v-for="pirush in meforshimOrdered(item.meforshim)" :key="pirush">{{
+                meforshim[pirush]
+              }}</UBadge>
+          </div>
+          <div>
+            <template v-for="pirush in meforshimOrdered(item.meforshim)" :key="pirush">
+              <div v-if="showMeforshim[i]?.[pirush] === 'open'" class="text-[0.6em] mt-1">
+                <div class="underline">{{ meforshim[pirush] }}</div>
+                <span v-html="item[pirush].join('  ')"></span>
+              </div>
+            </template>
+          </div>
+        </div>
       </div>
     </div>
     <div v-else>
@@ -127,6 +185,30 @@ onMounted(() => {
               <span v-html="rashi.join('  ')"></span>
             </span>
           </span>
+        </div>
+        <div v-if="item.some((i) => i.meforshim?.length) && !settings.disableMeforshim">
+          <div class="flex gap-1">
+            <UBadge class="font-bold" color="neutral"
+              :variant="showMeforshim[i]?.[pirush] === 'open' ? 'outline' : 'soft'"
+              :icon="showMeforshim[i]?.[pirush] === 'loading' ? 'svg-spinners:6-dots-rotate' : ''"
+              @click="getPirush(pirush, i)" v-for="pirush in meforshimOrdered(item, true)" :key="pirush">{{
+                meforshim[pirush]
+              }}</UBadge>
+          </div>
+          <div>
+            <template v-for="pirush in meforshimOrdered(item, true)" :key="pirush">
+              <div v-if="showMeforshim[i]?.[pirush] === 'open'" class="text-[0.6em] mt-1">
+                <div class="underline">{{ meforshim[pirush] }}</div>
+                <template v-for="(pasuk, j) in item" :key="j">
+                  <div v-if="pasuk[pirush]?.length">
+                    <span class="me-1 text-[0.8em] font-semibold" v-if="pasuk.perek">{{ pasuk.perek }}</span>
+                    <span class="me-1 text-[0.8em] font-semibold">{{ pasuk.pasuk }}</span>
+                    <span v-html="pasuk[pirush].join('  ')"></span>
+                  </div>
+                </template>
+              </div>
+            </template>
+          </div>
         </div>
       </div>
     </div>

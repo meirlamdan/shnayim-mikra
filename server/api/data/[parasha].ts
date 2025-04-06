@@ -1,13 +1,14 @@
-import parshiyot from '~~/server/parshiyot'
-import { dirname, resolve } from 'path'
-import { fileURLToPath } from 'url'
+import { readFile, writeFile } from 'fs/promises'
+import { join } from 'path'
 
+import parshiyot from '~~/server/parshiyot'
 
 type Parasha = keyof typeof parshiyot
 type Psuk = {
   torah: string,
   targum: string,
-  rashi?: string
+  rashi?: string,
+  meforshim?: string[],
   perek?: string
   pasuk: string
   aliya?: string | null
@@ -20,16 +21,32 @@ export default defineCachedEventHandler(async (event) => {
     parasha = 'bereshit'
   }
   let { chumash, start: [perekStart, pasukStart], end: [perekEnd, pasukEnd], aliyot } = parshiyot[parasha as Parasha];
-  // const __filename = fileURLToPath(import.meta.url)
-  // const __dirname = dirname(__filename)
-  // // const jsonData = await import(resolve(__dirname,), { 
-  // //   assert: { type: 'json' } 
-  // // })
-  const promises = [useStorage('assets:server/torah').getItem(`${chumash}.json`), useStorage('assets:server/targum').getItem(`${chumash}.json`)];
-  if (withRashi) {
-    promises.push(useStorage('assets:server/rashi').getItem(`${chumash}.json`));
+  //temporary
+  async function getParesFile(fileName: string) {
+    const filePath = `https://shnayim-mikra.netlify.app/data/${fileName}.json`
+    const fileContent = await $fetch(filePath)
+    return fileContent
   }
-  const [torahText = {} as { text: any }, targumText = {} as { text: any }, rashiText = {} as { text: any }] = await Promise.all(promises) as any
+
+  // const text = await getParesFile(`meforshim/ramban/shmot`)
+  // const st = await getParesFile(`meforshim-index/shmot`)
+  // text.text.text.forEach((p: any, i: number) => {
+  //   p.forEach((t: any, j: number) => {
+  //     if (t.length) {
+  //       st[i][j].push('ramban')
+  //     }
+  //   })
+  // });
+  // // console.log(st);
+
+  // await writeFile(join(process.cwd(), `server/data/meforshim-index/shmot.json`), JSON.stringify(st, null, 2))
+  // return
+
+  const promises = [getParesFile(`torah/${chumash}`), getParesFile(`targum/${chumash}`)];
+  if (withRashi) {
+    promises.push(getParesFile(`rashi/${chumash}`), getParesFile(`meforshim-index/${chumash}`));
+  }
+  const [torahText = {} as { text: any }, targumText = {} as { text: any }, rashiText = {} as { text: any }, meforshimIndex = []] = await Promise.all(promises) as any
 
   function orderText(currentIndex: number[], end: number[], aliyot: number[][], data: any[]): Psuk[] {
     let [currentPerek, currentPasuk] = currentIndex;
@@ -40,6 +57,7 @@ export default defineCachedEventHandler(async (event) => {
     };
     if (withRashi) {
       obj.rashi = rashiText?.text[currentPerek][currentPasuk];
+      obj.meforshim = meforshimIndex[currentPerek][currentPasuk];
     }
     if (currentPasuk === 0) {
       obj.perek = toHebrew(currentPerek);
@@ -64,7 +82,7 @@ export default defineCachedEventHandler(async (event) => {
   }
   return orderText([perekStart, pasukStart], [perekEnd, pasukEnd], aliyot, []);
 }, {
-  maxAge: 60 * 60 * 24 * 90 // 90 days,
+  maxAge: 60 * 60 * 24 * 365 // 1 year
 })
 
 function toHebrew(number: number) {
