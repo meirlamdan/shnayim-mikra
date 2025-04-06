@@ -21,30 +21,30 @@ export default defineCachedEventHandler(async (event) => {
     parasha = 'bereshit'
   }
   let { chumash, start: [perekStart, pasukStart], end: [perekEnd, pasukEnd], aliyot } = parshiyot[parasha as Parasha];
-  //temporary
-  async function getParesFile(fileName: string) {
-    const filePath = `https://shnayim-mikra.netlify.app/data/${fileName}.json`
-    const fileContent = await $fetch(filePath)
-    return fileContent
-  }
+  // async function getParesFile(fileName: string) {
+  //   const file = await readFile(join(process.cwd(), `server/assets/${fileName}.json`), 'utf-8')
+  //   return JSON.parse(file)
+  // }
 
-  // const text = await getParesFile(`meforshim/ramban/shmot`)
-  // const st = await getParesFile(`meforshim-index/shmot`)
-  // text.text.text.forEach((p: any, i: number) => {
+  // const st = await getParesFile(`meforshim-index/bamidbar`)
+  
+  // const text = await getParesFile(`meforshim/ramban/bamidbar`)
+  // text.text.forEach((p: any, i: number) => {
   //   p.forEach((t: any, j: number) => {
   //     if (t.length) {
-  //       st[i][j].push('ramban')
+  //       st[i][j] = ['ramban']
+  //     } else {
+  //       st[i][j] = []
   //     }
   //   })
   // });
-  // // console.log(st);
 
-  // await writeFile(join(process.cwd(), `server/data/meforshim-index/shmot.json`), JSON.stringify(st, null, 2))
+  // await writeFile(join(process.cwd(), `server/assets/meforshim-index/bamidbar.json`), JSON.stringify(st, null, 2))
   // return
 
-  const promises = [getParesFile(`torah/${chumash}`), getParesFile(`targum/${chumash}`)];
+  const promises = [useStorage('assets:server/torah').getItem(`${chumash}.json`), useStorage('assets:server/targum').getItem(`${chumash}.json`)];
   if (withRashi) {
-    promises.push(getParesFile(`rashi/${chumash}`), getParesFile(`meforshim-index/${chumash}`));
+    promises.push(useStorage('assets:server/rashi').getItem(`${chumash}.json`), useStorage('assets:server/meforshim-index').getItem(`${chumash}.json`));
   }
   const [torahText = {} as { text: any }, targumText = {} as { text: any }, rashiText = {} as { text: any }, meforshimIndex = []] = await Promise.all(promises) as any
 

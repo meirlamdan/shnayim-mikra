@@ -1,6 +1,3 @@
-import { readFile, writeFile } from 'fs/promises'
-import { join } from 'path'
-
 import parshiyot from '~~/server/parshiyot'
 
 type Parasha = keyof typeof parshiyot
@@ -11,20 +8,7 @@ export default defineCachedEventHandler(async (event) => {
 
   let { chumash, start: [perekStart, pasukStart], end: [perekEnd, pasukEnd] } = parshiyot[parasha as Parasha];
 
-  // async function getParesFile(fileName: string) {
-  //   const filePath = join(process.cwd(), `server/data/${fileName}.json`)
-  //   const fileContent = await readFile(filePath, 'utf8')
-  //   return JSON.parse(fileContent)
-  // }
-  
-// temporary
-  async function getParesFile(fileName: string) {
-    const filePath = `https://shnayim-mikra.netlify.app/data/${fileName}.json`
-    const fileContent = await $fetch(filePath)
-    return fileContent
-  }
-
-  const file = await getParesFile(`meforshim/${pirush}/${chumash}`);
+  const file = await useStorage(`assets:server/meforshim/${pirush}`).getItem(`${chumash}.json`) as any
 
   function getText(start: number[], end: number[], data: any[]) {
     let [currentPerek, currentPasuk] = start;
