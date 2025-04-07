@@ -22,7 +22,7 @@ const getPirush = async (pirush, index) => {
   }
   showMeforshim.value[index] ||= {}
   showMeforshim.value[index][pirush] = 'loading'
-  const meforesh = await $fetch('/api/meforshim/ramban', {
+  const meforesh = await $fetch(`/api/meforshim/${pirush}`, {
     query: { parasha }
   })
   meforesh.forEach((m, index) => {
@@ -33,7 +33,7 @@ const getPirush = async (pirush, index) => {
 
 const meforshim = {
   'ramban': 'רמב"ן',
-  'evenEzra': 'אבן-עזרא',
+  'iben-ezra': 'אבן-עזרא',
 }
 
 const meforshimOrdered = (mf, isMultiple) => {
