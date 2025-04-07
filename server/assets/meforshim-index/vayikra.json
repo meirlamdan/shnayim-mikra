@@ -5,77 +5,104 @@
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "or-hachaim"
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "or-hachaim"
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
     ]
   ],
   [
@@ -83,28 +110,36 @@
       "ramban",
       "iben-ezra",
       "rashbam",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "iben-ezra"
     ],
     [
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [],
     [
       "iben-ezra"
     ],
-    [],
     [
-      "iben-ezra"
+      "chizkuni"
     ],
-    [],
-    [],
+    [
+      "chizkuni"
+    ],
     [
       "iben-ezra",
       "or-hachaim"
@@ -112,15 +147,19 @@
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "daat-zekenim"
     ],
     [
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
@@ -128,231 +167,66 @@
       "rashbam",
       "or-hachaim"
     ],
-    [],
-    []
-  ],
-  [
     [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra",
-      "rashbam"
+      "chizkuni"
     ],
     [
-      "ramban"
-    ],
-    [],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "rashbam",
-      "or-hachaim"
-    ]
-  ],
-  [
-    [],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "rashbam"
-    ],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [],
-    [
-      "ramban",
-      "rashbam"
-    ],
-    [],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra",
-      "rashbam"
+      "chizkuni"
     ]
   ],
   [
     [
       "ramban",
       "iben-ezra",
-      "or-hachaim"
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
     ],
     [
-      "ramban",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
       "iben-ezra",
       "rashbam"
     ],
     [
-      "rashbam"
+      "ramban",
+      "chizkuni"
     ],
+    [],
     [
-      "iben-ezra"
-    ],
-    [
-      "ramban"
+      "chizkuni"
     ],
     [],
     [
       "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "rashbam"
-    ],
-    [
-      "rashbam"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "rashbam"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
       "iben-ezra",
       "rashbam",
-      "sforno"
-    ],
-    [
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
+      "chizkuni"
     ],
     [],
     [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
       "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [],
+    [],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
       "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "or-hachaim",
+      "chizkuni"
     ]
   ],
   [
@@ -361,62 +235,297 @@
       "ramban",
       "iben-ezra",
       "rashbam",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [],
+    [],
+    [
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
       "sforno",
       "or-hachaim"
     ],
     [
       "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "rashbam"
+    ],
+    [],
+    [],
+    [],
+    [
+      "iben-ezra",
+      "sforno"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "rashbam",
+      "chizkuni"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [],
+    [],
+    [
+      "daat-zekenim"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim"
+    ],
+    [],
+    [],
+    [
       "iben-ezra",
       "rashbam"
+    ]
+  ],
+  [
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "ramban"
     ],
     [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [],
+    [
+      "rashbam",
+      "chizkuni"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
       "sforno"
     ],
-    [],
     [
-      "iben-ezra",
       "rashbam"
     ],
     [
-      "ramban",
+      "iben-ezra",
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "sforno"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
       "iben-ezra"
     ],
     [
       "iben-ezra",
-      "rashbam"
+      "chizkuni"
+    ]
+  ],
+  [
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
     ],
     [],
     [
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "or-hachaim"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [],
     [
       "ramban",
       "iben-ezra",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra"
@@ -424,10 +533,12 @@
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "iben-ezra"
@@ -446,53 +557,65 @@
     [],
     [],
     [
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "sforno"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
       "or-hachaim"
     ],
-    [],
     [
-      "sforno"
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
     ],
     [
-      "ramban",
-      "iben-ezra"
+      "sforno",
+      "daat-zekenim"
     ],
     [
       "ramban",
       "iben-ezra",
-      "or-hachaim"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "sforno"
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "iben-ezra",
@@ -500,32 +623,42 @@
     ],
     [
       "rashbam",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
-      "ramban"
+      "ramban",
+      "chizkuni"
     ],
     [],
-    [],
+    [
+      "chizkuni"
+    ],
     [],
     [
       "ramban",
       "rashbam",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [],
     [],
-    [],
+    [
+      "chizkuni"
+    ],
     [
       "ramban",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [],
     [
@@ -537,19 +670,23 @@
     [],
     [
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ]
   ],
   [
@@ -558,10 +695,12 @@
       "ramban",
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "or-hachaim"
@@ -575,14 +714,16 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [],
     [],
     [
       "ramban",
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban"
@@ -591,50 +732,8 @@
     [
       "iben-ezra"
     ],
-    [],
     [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "ramban"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [],
-    [
-      "ramban"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
+      "chizkuni"
     ],
     [
       "ramban",
@@ -642,245 +741,13 @@
     ],
     [
       "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "ramban"
-    ]
-  ],
-  [
-    [
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "rashbam"
-    ],
-    [],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "sforno"
-    ],
-    [
-      "ramban",
-      "sforno"
-    ],
-    [
-      "sforno"
-    ],
-    [
-      "ramban"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ]
-  ],
-  [
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "rashbam"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "sforno",
-      "or-hachaim"
-    ]
-  ],
-  [
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [],
-    [
-      "ramban",
-      "or-hachaim"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
     ],
     [
       "ramban",
       "iben-ezra"
     ],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
+    [],
+    [],
     [
       "ramban"
     ],
@@ -890,163 +757,38 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
       "iben-ezra"
     ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
+    [],
     [],
     [
       "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
+      "sforno"
     ],
     [
       "iben-ezra"
     ],
     [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
+      "or-hachaim",
+      "chizkuni"
     ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ]
-  ],
-  [
     [],
     [
       "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "sforno",
       "or-hachaim"
     ],
     [
       "ramban",
       "iben-ezra",
-      "rashbam",
-      "sforno"
+      "chizkuni"
     ],
     [
-      "sforno",
-      "or-hachaim"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "iben-ezra"
@@ -1054,457 +796,237 @@
     [
       "ramban",
       "iben-ezra",
-      "rashbam",
-      "or-hachaim"
+      "sforno"
     ],
     [
-      "iben-ezra",
-      "sforno"
+      "ramban"
     ]
   ],
   [
     [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
       "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim"
+    ],
+    [
       "iben-ezra"
     ],
     [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
+      "iben-ezra"
     ],
     [
-      "ramban",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
+      "chizkuni"
     ],
     [
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "ramban",
       "iben-ezra",
       "sforno"
     ],
     [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [],
-    [
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
       "rashbam"
     ],
     [
-      "ramban",
+      "chizkuni"
+    ],
+    [
       "iben-ezra",
-      "rashbam",
+      "sforno",
       "or-hachaim"
     ],
     [
-      "iben-ezra"
+      "sforno"
+    ],
+    [
+      "ramban",
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "sforno"
     ],
     [
       "ramban"
     ],
     [
+      "ramban",
       "iben-ezra"
     ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
     [
       "iben-ezra"
     ],
     [
       "ramban",
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "rashbam"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "ramban"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "chizkuni"
     ]
   ],
   [
     [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
       "iben-ezra",
+      "rashbam",
       "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "or-hachaim"
+      "rashbam",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "ramban",
+      "iben-ezra",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "sforno",
-      "or-hachaim"
+      "chizkuni"
     ],
     [
-      "ramban",
       "iben-ezra",
-      "sforno",
-      "or-hachaim"
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "ramban",
-      "iben-ezra"
-    ],
-    [
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
       "sforno"
     ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
     [
       "ramban",
       "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
+      "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
-      "or-hachaim"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam"
     ],
     [
-      "iben-ezra"
-    ],
-    [
       "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [
-      "ramban"
-    ],
-    [
-      "ramban",
-      "sforno"
-    ],
-    [
-      "sforno"
-    ],
-    [
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ]
-  ],
-  [
-    [
-      "iben-ezra"
-    ],
-    [
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "sforno",
       "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [],
-    [],
-    [
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
     ]
   ],
   [
@@ -1512,6 +1034,10 @@
       "ramban",
       "iben-ezra",
       "rashbam",
+      "or-hachaim"
+    ],
+    [
+      "ramban",
       "sforno",
       "or-hachaim"
     ],
@@ -1519,785 +1045,1273 @@
       "ramban",
       "iben-ezra",
       "rashbam",
-      "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
-      "ramban",
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
+      "or-hachaim",
+      "chizkuni"
     ],
     [],
     [
       "ramban",
-      "sforno"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ]
-  ],
-  [
-    [],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [],
-    [
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ]
-  ],
-  [
-    [],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ]
-  ],
-  [
-    [],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [],
-    [
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ]
-  ],
-  [
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ]
-  ],
-  [
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra",
       "or-hachaim"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "chizkuni"
     ],
-    [
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ]
-  ],
-  [
-    [],
     [
       "ramban",
-      "iben-ezra",
-      "rashbam",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
       "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra",
-      "sforno"
     ],
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "rashbam",
       "or-hachaim"
     ],
     [
       "ramban"
     ],
     [
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "daat-zekenim"
+    ],
+    [
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ]
+  ],
+  [
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "sforno",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "daat-zekenim"
+    ]
+  ],
+  [
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "rashbam",
+      "or-hachaim",
+      "daat-zekenim"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "daat-zekenim"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [],
+    [
+      "rashbam",
+      "daat-zekenim"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [],
+    [],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "rashbam",
+      "chizkuni"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "daat-zekenim"
+    ],
+    [
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "sforno"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "daat-zekenim"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "daat-zekenim"
+    ],
+    [],
+    [],
+    [
+      "iben-ezra",
+      "rashbam",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ]
+  ],
+  [
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "sforno"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "chizkuni"
+    ],
+    [
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [],
+    [],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [],
+    [
+      "ramban",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "sforno"
+    ],
+    [
+      "rashbam",
+      "sforno"
+    ],
+    [
+      "iben-ezra",
+      "sforno"
+    ]
+  ],
+  [
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "chizkuni"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [],
+    [
+      "chizkuni"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [],
+    [
+      "chizkuni"
+    ],
+    [
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ]
+  ],
+  [
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "sforno"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "or-hachaim"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
       "iben-ezra",
       "rashbam",
       "sforno",
       "or-hachaim"
+    ]
+  ],
+  [
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim"
+    ],
+    [
+      "ramban",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
     ],
     [],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "or-hachaim"
+    ],
+    [],
+    [
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno"
+    ]
+  ],
+  [
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
     [
       "ramban",
       "iben-ezra",
       "sforno"
     ],
     [
-      "sforno"
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
     ],
     [
-      "sforno"
+      "ramban",
+      "iben-ezra",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "sforno"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ]
+  ],
+  [
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [],
+    [
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
@@ -2307,7 +2321,499 @@
     ],
     [
       "iben-ezra",
+      "sforno",
+      "or-hachaim"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
       "sforno"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ]
+  ],
+  [
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "or-hachaim"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim"
+    ],
+    [
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "sforno"
+    ]
+  ],
+  [
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "sforno"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ]
+  ],
+  [
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "sforno"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
@@ -2316,11 +2822,13 @@
     [],
     [
       "iben-ezra",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "iben-ezra",
@@ -2331,7 +2839,8 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "ramban",
@@ -2350,11 +2859,13 @@
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
@@ -2363,9 +2874,12 @@
     [
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
-    [],
+    [
+      "chizkuni"
+    ],
     [
       "ramban"
     ],
@@ -2377,61 +2891,77 @@
     [],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "iben-ezra"
     ],
-    [],
     [
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "ramban",
       "iben-ezra",
       "sforno"
     ],
     [
-      "ramban",
       "iben-ezra",
-      "or-hachaim"
+      "chizkuni"
     ],
     [
-      "ramban",
       "iben-ezra",
-      "rashbam"
+      "chizkuni"
     ],
     [
-      "ramban",
-      "iben-ezra",
-      "sforno"
+      "chizkuni"
     ],
     [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [],
     [],
@@ -2440,26 +2970,32 @@
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "iben-ezra"
     ],
     [
       "iben-ezra",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [],
     [
@@ -2470,11 +3006,13 @@
       "ramban",
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra"
@@ -2483,17 +3021,22 @@
       "ramban",
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [],
     [
       "ramban",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "ramban",
@@ -2513,25 +3056,33 @@
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
-      "sforno"
-    ],
-    [
-      "iben-ezra"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "sforno"
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
-    [],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
     [
       "ramban",
       "iben-ezra"
@@ -2540,31 +3091,43 @@
       "ramban",
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "rashbam",
-      "sforno"
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "ramban",
@@ -2575,22 +3138,26 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ]
   ],
   [
@@ -2599,63 +3166,75 @@
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "sforno"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra"
     ],
     [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "sforno"
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
@@ -2665,7 +3244,8 @@
       "ramban",
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "sforno",
@@ -2683,23 +3263,27 @@
     ],
     [
       "ramban",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim"
     ],
     [
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
@@ -2708,20 +3292,26 @@
     [
       "ramban",
       "iben-ezra",
-      "sforno"
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
@@ -2735,40 +3325,52 @@
     [
       "ramban",
       "iben-ezra",
-      "or-hachaim"
-    ],
-    [],
-    [
-      "iben-ezra"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
       "rashbam"
     ],
     [
-      "rashbam"
+      "ramban",
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "chizkuni"
     ],
     [
-      "ramban",
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "sforno"
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
@@ -2777,17 +3379,20 @@
     ],
     [
       "ramban",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "sforno"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "iben-ezra"
@@ -2801,34 +3406,45 @@
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
-      "sforno"
+      "sforno",
+      "daat-zekenim"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "daat-zekenim"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "sforno"
     ],
     [
-      "iben-ezra",
       "sforno"
     ],
     [
-      "sforno"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "iben-ezra",
+      "daat-zekenim"
     ],
     [
       "iben-ezra",
-      "or-hachaim"
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ]
   ],
   [
@@ -2836,52 +3452,64 @@
       "ramban",
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
       "sforno",
       "or-hachaim"
     ],
     [
       "ramban",
       "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "ramban",
-      "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
@@ -2891,132 +3519,157 @@
     ],
     [
       "ramban",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra"
     ],
     [
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam",
-      "sforno"
+      "sforno",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "iben-ezra"
     ],
     [
       "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "sforno",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "or-hachaim",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
       "rashbam"
     ],
     [
       "iben-ezra",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra",
-      "sforno"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "rashbam",
-      "or-hachaim"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
       "sforno",
       "or-hachaim"
     ],
@@ -3024,32 +3677,38 @@
       "ramban",
       "iben-ezra",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
       "rashbam",
       "sforno",
-      "or-hachaim"
+      "or-hachaim",
+      "chizkuni"
     ],
     [
       "iben-ezra",
@@ -3063,51 +3722,65 @@
     ],
     [
       "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra",
-      "rashbam"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "rashbam"
-    ],
-    [],
-    [
-      "rashbam"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "rashbam",
+      "chizkuni"
     ],
     [
       "iben-ezra",
       "rashbam"
     ],
     [
+      "chizkuni"
+    ],
+    [],
+    [],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "chizkuni"
+    ],
+    [
+      "rashbam",
+      "chizkuni"
+    ],
+    [],
+    [
+      "chizkuni"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
+    ],
+    [
+      "iben-ezra",
+      "rashbam",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [],
     [
@@ -3115,40 +3788,49 @@
     ],
     [
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam",
+      "chizkuni"
+    ],
     [
       "ramban",
       "iben-ezra",
       "rashbam"
     ],
     [
-      "ramban",
       "iben-ezra",
-      "rashbam"
-    ],
-    [
-      "iben-ezra"
+      "chizkuni"
     ],
     [
       "ramban",
       "iben-ezra",
-      "rashbam"
+      "rashbam",
+      "chizkuni"
     ],
     [
-      "rashbam"
+      "rashbam",
+      "daat-zekenim",
+      "chizkuni"
     ],
     [],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "chizkuni"
     ],
     [
       "iben-ezra"
     ],
     [
       "iben-ezra",
-      "sforno"
+      "sforno",
+      "daat-zekenim",
+      "chizkuni"
     ]
   ]
 ]

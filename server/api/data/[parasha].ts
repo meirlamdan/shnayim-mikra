@@ -25,17 +25,17 @@ export default defineCachedEventHandler(async (event) => {
   //   const file = await readFile(join(process.cwd(), `server/assets/${fileName}.json`), 'utf-8')
   //   return JSON.parse(file)
   // }
-  // const st = await getParesFile(`meforshim-index/bereishit`)
-  // const text = await getParesFile(`meforshim/or-hachaim/bereishit`)
+  // const st = await getParesFile(`meforshim-index/dvarim`)
+  // const text = await getParesFile(`meforshim/chizkuni/dvarim`)
   // text.text.forEach((p: any, i: number) => {
   //   p.forEach((t: any, j: number) => {
   //     if (t.length) {
-  //       st[i][j].push('or-hachaim')
+  //       st[i][j].push('chizkuni')
   //     }
   //   })
   // })
 
-  // await writeFile(join(process.cwd(), `server/assets/meforshim-index/bereishit.json`), JSON.stringify(st, null, 2))
+  // await writeFile(join(process.cwd(), `server/assets/meforshim-index/dvarim.json`), JSON.stringify(st, null, 2))
   // return
 
   const promises = [useStorage('assets:server/torah').getItem(`${chumash}.json`), useStorage('assets:server/targum').getItem(`${chumash}.json`)];

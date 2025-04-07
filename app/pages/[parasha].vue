@@ -35,6 +35,8 @@ const meforshim = {
   'ramban': 'רמב"ן',
   'iben-ezra': 'אבן-עזרא',
   'rashbam': 'רשב"ם',
+  'daat-zekenim': 'דעת זקנים',
+  'chizkuni': 'חזקוני',
   'sforno': 'ספורנו',
   'or-hachaim': 'אור החיים'
 }
@@ -134,8 +136,8 @@ onMounted(() => {
           v-html="item.rashi.join('  ')">
         </div>
         <div v-if="item.meforshim?.length && !settings.disableMeforshim">
-          <div class="flex gap-1">
-            <UBadge class="font-bold cursor-pointer" color="neutral"
+          <div class="flex gap-2 flex-wrap">
+            <UBadge class="cursor-pointer" color="neutral"
               :variant="showMeforshim[i]?.[pirush] === 'open' ? 'outline' : 'soft'"
               :icon="showMeforshim[i]?.[pirush] === 'loading' ? 'svg-spinners:6-dots-rotate' : ''"
               @click="getPirush(pirush, i)" v-for="pirush in meforshimOrdered(item.meforshim)" :key="pirush">{{
@@ -190,8 +192,8 @@ onMounted(() => {
           </span>
         </div>
         <div v-if="item.some((i) => i.meforshim?.length) && !settings.disableMeforshim">
-          <div class="flex gap-1 mt-1">
-            <UBadge class="font-bold cursor-pointer" color="neutral"
+          <div class="flex gap-2 flex-wrap mt-1">
+            <UBadge class="cursor-pointer" color="neutral"
               :variant="showMeforshim[i]?.[pirush] === 'open' ? 'outline' : 'soft'"
               :icon="showMeforshim[i]?.[pirush] === 'loading' ? 'svg-spinners:6-dots-rotate' : ''"
               @click="getPirush(pirush, i)" v-for="pirush in meforshimOrdered(item, true)" :key="pirush">{{
