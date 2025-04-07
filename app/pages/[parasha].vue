@@ -34,6 +34,7 @@ const getPirush = async (pirush, index) => {
 const meforshim = {
   'ramban': 'רמב"ן',
   'iben-ezra': 'אבן-עזרא',
+  'rashbam': 'רשב"ם'
 }
 
 const meforshimOrdered = (mf, isMultiple) => {
@@ -132,7 +133,7 @@ onMounted(() => {
         </div>
         <div v-if="item.meforshim?.length && !settings.disableMeforshim">
           <div class="flex gap-1">
-            <UBadge class="font-bold" color="neutral"
+            <UBadge class="font-bold cursor-pointer" color="neutral"
               :variant="showMeforshim[i]?.[pirush] === 'open' ? 'outline' : 'soft'"
               :icon="showMeforshim[i]?.[pirush] === 'loading' ? 'svg-spinners:6-dots-rotate' : ''"
               @click="getPirush(pirush, i)" v-for="pirush in meforshimOrdered(item.meforshim)" :key="pirush">{{
@@ -187,8 +188,8 @@ onMounted(() => {
           </span>
         </div>
         <div v-if="item.some((i) => i.meforshim?.length) && !settings.disableMeforshim">
-          <div class="flex gap-1">
-            <UBadge class="font-bold" color="neutral"
+          <div class="flex gap-1 mt-1">
+            <UBadge class="font-bold cursor-pointer" color="neutral"
               :variant="showMeforshim[i]?.[pirush] === 'open' ? 'outline' : 'soft'"
               :icon="showMeforshim[i]?.[pirush] === 'loading' ? 'svg-spinners:6-dots-rotate' : ''"
               @click="getPirush(pirush, i)" v-for="pirush in meforshimOrdered(item, true)" :key="pirush">{{
@@ -200,11 +201,11 @@ onMounted(() => {
               <div v-if="showMeforshim[i]?.[pirush] === 'open'" class="text-[0.6em] mt-1">
                 <div class="underline">{{ meforshim[pirush] }}</div>
                 <template v-for="(pasuk, j) in item" :key="j">
-                  <div v-if="pasuk[pirush]?.length">
+                  <span v-if="pasuk[pirush]?.length" class="me-2">
                     <span class="me-1 text-[0.8em] font-semibold" v-if="pasuk.perek">{{ pasuk.perek }}</span>
                     <span class="me-1 text-[0.8em] font-semibold">{{ pasuk.pasuk }}</span>
                     <span v-html="pasuk[pirush].join('  ')"></span>
-                  </div>
+                  </span>
                 </template>
               </div>
             </template>

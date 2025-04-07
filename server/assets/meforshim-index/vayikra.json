@@ -2,7 +2,26 @@
   [
     [
       "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
       "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
@@ -13,26 +32,13 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban"
@@ -48,11 +54,13 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
@@ -62,10 +70,12 @@
   [
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -87,10 +97,12 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
@@ -98,7 +110,8 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     []
@@ -106,10 +119,332 @@
   [
     [
       "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban"
+    ],
+    [],
+    [],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
       "iben-ezra"
     ],
     [],
     [],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "rashbam"
+    ]
+  ],
+  [
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "rashbam"
+    ],
+    [],
+    [],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "ramban",
+      "rashbam"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
+    ]
+  ],
+  [
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "rashbam"
+    ],
+    [
+      "rashbam"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "rashbam"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ]
+  ],
+  [
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ]
+  ],
+  [
+    [
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "rashbam"
+    ],
     [
       "iben-ezra"
     ],
@@ -121,9 +456,76 @@
     [],
     [
       "ramban",
+      "rashbam"
+    ],
+    [
+      "rashbam"
+    ],
+    [],
+    [],
+    [],
+    [
+      "ramban"
+    ],
+    [],
+    [],
+    [
       "iben-ezra"
     ],
     [],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ]
+  ],
+  [
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
     [
       "iben-ezra"
     ],
@@ -133,344 +535,208 @@
     ],
     [],
     [],
+    [
+      "ramban"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
     [],
     [
       "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [
+      "ramban"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban"
+    ]
+  ],
+  [
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "rashbam"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "ramban"
+    ],
+    [],
+    [
+      "ramban"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ]
+  ],
+  [
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
     ],
     []
   ],
   [
-    [],
     [
       "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ]
-  ],
-  [
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ]
-  ],
-  [
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban"
     ],
     [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
       "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ]
-  ],
-  [
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban"
-    ],
-    [],
-    [],
-    [],
-    [
-      "ramban"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [
-      "ramban"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ]
-  ],
-  [
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [],
@@ -480,192 +746,8 @@
     [],
     [
       "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "ramban"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban"
-    ]
-  ],
-  [
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban"
-    ],
-    [],
-    [
-      "ramban"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ]
-  ],
-  [
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    []
-  ],
-  [
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "ramban"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
@@ -702,10 +784,12 @@
       "iben-ezra"
     ],
     [
-      "ramban"
+      "ramban",
+      "rashbam"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -715,13 +799,22 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -730,24 +823,18 @@
     [
       "iben-ezra"
     ],
-    [],
-    [
-      "iben-ezra"
-    ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
     ],
     [
       "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
@@ -755,17 +842,25 @@
     ],
     [
       "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
       "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
@@ -793,14 +888,16 @@
     [],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [
@@ -808,7 +905,8 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -821,13 +919,16 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
-      "ramban"
+      "ramban",
+      "rashbam"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
@@ -838,90 +939,17 @@
       "iben-ezra"
     ],
     [],
-    [],
     [
-      "iben-ezra"
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -932,12 +960,95 @@
     [
       "iben-ezra"
     ],
+    [],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
     [
       "iben-ezra"
     ],
     [],
     [
       "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "rashbam"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban"
@@ -945,7 +1056,8 @@
     [],
     [],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [
@@ -980,7 +1092,8 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -993,7 +1106,9 @@
       "ramban",
       "iben-ezra"
     ],
-    [],
+    [
+      "rashbam"
+    ],
     [],
     [],
     [
@@ -1045,7 +1160,8 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [],
@@ -1053,7 +1169,8 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1086,7 +1203,9 @@
       "ramban"
     ],
     [],
-    [],
+    [
+      "rashbam"
+    ],
     [
       "iben-ezra"
     ]
@@ -1096,13 +1215,16 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [],
@@ -1120,7 +1242,8 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [
@@ -1138,7 +1261,23 @@
     ],
     [],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [],
@@ -1146,163 +1285,8 @@
     [
       "iben-ezra"
     ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
     [],
     [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ]
-  ],
-  [
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ]
-  ],
-  [
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
       "iben-ezra"
     ],
     [
@@ -1313,6 +1297,161 @@
     ]
   ],
   [
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "ramban"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ]
+  ],
+  [
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ]
+  ],
+  [
     [],
     [
       "ramban",
@@ -1327,7 +1466,8 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
@@ -1340,7 +1480,8 @@
     [],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [
@@ -1363,7 +1504,8 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
@@ -1412,46 +1554,12 @@
     [],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
@@ -1459,22 +1567,107 @@
     ],
     [
       "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
       "iben-ezra"
     ],
     [
@@ -1488,41 +1681,12 @@
       "iben-ezra"
     ],
     [
-      "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1553,10 +1717,12 @@
     [],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1578,7 +1744,8 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1587,7 +1754,8 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1614,7 +1782,8 @@
   [
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1623,24 +1792,28 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
       "iben-ezra"
     ],
     [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
       "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
@@ -1671,11 +1844,13 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1694,10 +1869,12 @@
     [],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1711,13 +1888,15 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1730,13 +1909,15 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [
@@ -1753,7 +1934,8 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1791,7 +1973,8 @@
     [],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1800,104 +1983,6 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
       "iben-ezra"
     ],
     [],
@@ -1908,6 +1993,114 @@
       "ramban",
       "iben-ezra"
     ],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "ramban",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
     [
       "ramban",
       "iben-ezra"
@@ -1917,7 +2110,8 @@
     [],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [
@@ -1942,7 +2136,8 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1951,14 +2146,18 @@
     [
       "iben-ezra"
     ],
-    [],
     [
-      "iben-ezra"
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
     ],
     [],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1967,7 +2166,8 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -1980,39 +2180,18 @@
   [
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -2022,6 +2201,7 @@
       "iben-ezra"
     ],
     [
+      "ramban",
       "iben-ezra"
     ],
     [
@@ -2030,7 +2210,34 @@
     ],
     [],
     [
+      "ramban",
       "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -2044,7 +2251,8 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -2055,66 +2263,16 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
     ],
     [],
     [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
@@ -2131,35 +2289,15 @@
       "iben-ezra"
     ],
     [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ]
-  ],
-  [
-    [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
+      "rashbam"
     ],
     [
       "ramban",
-      "iben-ezra"
-    ],
-    [
       "iben-ezra"
     ],
     [
@@ -2168,19 +2306,11 @@
     ],
     [],
     [
-      "ramban",
       "iben-ezra"
     ],
     [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "ramban"
@@ -2192,74 +2322,6 @@
       "iben-ezra"
     ],
     [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
       "iben-ezra"
     ],
     [
@@ -2273,21 +2335,24 @@
     ],
     [
       "ramban",
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
-    [
-      "ramban",
-      "iben-ezra"
-    ],
+    [],
     [
       "iben-ezra"
     ],
     [
-      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
       "iben-ezra"
     ],
     [
@@ -2296,56 +2361,54 @@
   ],
   [
     [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra"
+    ],
+    [
       "ramban"
     ],
     [
-      "iben-ezra"
+      "iben-ezra",
+      "rashbam"
     ],
     [
       "iben-ezra"
     ],
-    [],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
-    [
-      "iben-ezra"
-    ],
-    [
-      "iben-ezra"
-    ],
-    [],
     [
       "ramban",
       "iben-ezra"
@@ -2358,10 +2421,195 @@
       "iben-ezra"
     ],
     [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
       "ramban",
       "iben-ezra"
     ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ]
+  ],
+  [
+    [
+      "ramban"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
     [],
+    [],
+    [],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "rashbam"
+    ],
+    [],
+    [
+      "rashbam"
+    ],
+    [],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "iben-ezra"
+    ],
+    [
+      "iben-ezra",
+      "rashbam"
+    ],
+    [],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "iben-ezra"
+    ],
+    [
+      "ramban",
+      "iben-ezra",
+      "rashbam"
+    ],
+    [
+      "rashbam"
+    ],
     [],
     [
       "iben-ezra"
