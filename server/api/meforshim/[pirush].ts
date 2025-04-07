@@ -9,15 +9,17 @@ export default defineCachedEventHandler(async (event) => {
   let { chumash, start: [perekStart, pasukStart], end: [perekEnd, pasukEnd] } = parshiyot[parasha as Parasha];
 
   const file = await useStorage(`assets:server/meforshim/${pirush}`).getItem(`${chumash}.json`) as any
-
+  //this nide because length of the pirush sometimes is finish on teh last pirush on the perek even though there are more pasukim in the perek
+  const st = await useStorage(`assets:server/meforshim-index`).getItem(`${chumash}.json`) as any
   function getText(start: number[], end: number[], data: any[]) {
+
     let [currentPerek, currentPasuk] = start;
-    data.push(file.text[currentPerek][currentPasuk]);
+    data.push(file.text[currentPerek]?.[currentPasuk] || []);
     if (currentPerek === end[0] && currentPasuk === end[1]) {
       return data;
     }
 
-    const perekLength = file.text[currentPerek].length;
+    const perekLength = st[currentPerek].length;
 
     if (currentPasuk === perekLength - 1) {
       currentPasuk = 0;
