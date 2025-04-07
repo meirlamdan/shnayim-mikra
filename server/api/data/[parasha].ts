@@ -26,11 +26,11 @@ export default defineCachedEventHandler(async (event) => {
   //   return JSON.parse(file)
   // }
   // const st = await getParesFile(`meforshim-index/bereishit`)
-  // const text = await getParesFile(`meforshim/rashbam/bereishit`)
+  // const text = await getParesFile(`meforshim/or-hachaim/bereishit`)
   // text.text.forEach((p: any, i: number) => {
   //   p.forEach((t: any, j: number) => {
   //     if (t.length) {
-  //       st[i][j].push('rashbam')
+  //       st[i][j].push('or-hachaim')
   //     }
   //   })
   // })

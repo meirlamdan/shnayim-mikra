@@ -34,7 +34,9 @@ const getPirush = async (pirush, index) => {
 const meforshim = {
   'ramban': 'רמב"ן',
   'iben-ezra': 'אבן-עזרא',
-  'rashbam': 'רשב"ם'
+  'rashbam': 'רשב"ם',
+  'sforno': 'ספורנו',
+  'or-hachaim': 'אור החיים'
 }
 
 const meforshimOrdered = (mf, isMultiple) => {
