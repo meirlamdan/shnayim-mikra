@@ -97,7 +97,7 @@ onMounted(() => {
   window.document.addEventListener('scroll', (e) => {
     currentAliya.value = [0, 1, 2, 3, 4, 5].find(n => aliyotRefs.value[n]?.getBoundingClientRect().top - 80 <= 0 && (n === 5 || aliyotRefs.value[n + 1]?.getBoundingClientRect().top - 80 > 0)) + 1 || 0
   })
-  if (settings.value.aliyaByDay && parasha === weeklyParshaObject.route) {
+  if (settings.value.aliyaByDay && parasha === weeklyParshaObject?.route) {
     scrollToAliya(new Date().getDay(), 'instant')
   }
   window.addEventListener('beforeprint', () => {
