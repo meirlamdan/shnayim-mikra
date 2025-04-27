@@ -141,7 +141,7 @@ export default {
     chumash: "shmot",
     start: [34, 0],
     end: [39, 37],
-    aliyot: []
+    aliyot: [[34, 29], [36, 16], [37, 0], [38, 1], [38, 21], [39, 0], [39, 33]]
   },
   "vayikra": {
     chumash: "vayikra",
@@ -177,7 +177,7 @@ export default {
     chumash: "vayikra",
     start: [11, 0],
     end: [14, 32],
-    aliyot: []
+    aliyot: [[12, 23], [12, 39], [12, 54], [13, 20], [13, 32], [14, 15], [14, 30]]
   },
   "achrei-mot": {
     chumash: "vayikra",
@@ -195,7 +195,7 @@ export default {
     chumash: "vayikra",
     start: [15, 0],
     end: [19, 26],
-    aliyot: []
+    aliyot: [[15, 24], [16, 7], [17, 21], [18, 14], [18, 32], [19, 7], [19, 24]]
   },
   "emor": {
     chumash: "vayikra",
@@ -219,7 +219,7 @@ export default {
     chumash: "vayikra",
     start: [24, 0],
     end: [26, 33],
-    aliyot: []
+    aliyot: [[24, 18], [24, 28], [24, 38], [25, 9], [26, 0], [26, 15], [26, 31]]
   },
   "bamidbar": {
     chumash: "bamidbar",
@@ -267,7 +267,7 @@ export default {
     chumash: "bamidbar",
     start: [18, 0],
     end: [24, 8],
-    aliyot: []
+    aliyot: [[19, 6], [19, 21], [20, 20], [21, 12], [21, 38], [22, 26], [24, 6]]
   },
   "pinchas": {
     chumash: "bamidbar",
