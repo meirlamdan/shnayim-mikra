@@ -43,7 +43,7 @@ useHead({
 </script>
 <template>
   <UApp>
-    <NuxtLoadingIndicator />
+    <NuxtLoadingIndicator color="#000" />
     <div class="bg-[#f1f3f6] dark:bg-gray-900 dark:text-white transition-colors duration-300 font-heebo">
       <div class="max-w-4xl mx-auto">
         <div class="px-2 pt-6 pb-2">
