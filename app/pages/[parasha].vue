@@ -113,7 +113,14 @@ onMounted(() => {
 
 <template>
   <div class="sticky top-0 p-2 bg-gray-100 dark:bg-gray-900 print:hidden">
+  <div class="flex items-center justify-between">
     <div class="font-medium text-xl mb-1">פרשת <span>{{ parashaHe }}</span> </div>
+    <UButton  @click="printParsha"  variant="ghost" to="/"  v-if="parasha !== weeklyParshaObject?.route">
+      <span>עבור לפרשת השבוע</span>
+      <UIcon name="ph:arrow-left" />
+    </UButton>
+  </div>
+    
     <div class="flex gap-1 md:gap-2">
       <UButton v-for="(aliya, i) in aliyot" :key="aliya" @click="scrollToAliya(i)" :label="aliya" size="sm"
         class="px-1.5 md:px-2.5" variant="outline" color="neutral" :active="i === currentAliya" active-variant="subtle"
