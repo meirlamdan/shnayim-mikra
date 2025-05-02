@@ -114,9 +114,9 @@ onMounted(() => {
 <template>
   <div class="sticky top-0 p-2 bg-gray-100 dark:bg-gray-900 print:hidden">
   <div class="flex items-center justify-between">
-    <div class="font-medium text-xl mb-1">פרשת <span>{{ parashaHe }}</span> </div>
+    <div class="font-medium text-lg sm:text-xl mb-1">פרשת <span>{{ parashaHe }}</span> </div>
     <UButton  @click="printParsha"  variant="ghost" to="/"  v-if="parasha !== weeklyParshaObject?.route">
-      <span>עבור לפרשת השבוע</span>
+      <span>לפרשת השבוע</span>
       <UIcon name="ph:arrow-left" />
     </UButton>
   </div>
@@ -145,7 +145,7 @@ onMounted(() => {
           v-html="item.rashi.join('  ')">
         </div>
         <div v-if="item.meforshim?.length && !settings.disableMeforshim">
-          <div class="flex gap-2 flex-wrap">
+          <div class="flex gap-2 flex-wrap print:hidden">
             <UBadge class="cursor-pointer" color="neutral"
               :variant="showMeforshim[i]?.[pirush] === 'open' ? 'outline' : 'soft'"
               :icon="showMeforshim[i]?.[pirush] === 'loading' ? 'svg-spinners:6-dots-rotate' : ''"

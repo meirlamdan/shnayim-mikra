@@ -52,13 +52,13 @@ useHead({
               {{ parashaHe }}</span>
           </div>
           <div class="flex items-center justify-between my-10 print:hidden">
-            <div>{{ new HDate().renderGematriya(true) }} פרשת {{ weeklyParshaObject?.he }}</div>
-            <div class="flex gap-4">
+            <div class="text-sm sm:text-base">{{ new HDate().renderGematriya(true) }} פרשת {{ weeklyParshaObject?.he }}</div>
+            <div class="flex gap-2 sm:gap-4">
               <UButton icon="ph:printer-light" @click="printParsha" size="sm" variant="subtle" color="neutral" />
               <Slideover />
             </div>
           </div>
-          <div class="flex justify-center items-center gap-x-10 print:hidden">
+          <div class="flex justify-center items-center gap-x-5 print:hidden">
             <UTooltip :text="prevParsha?.he" :content="{ side: 'right' }">
               <ULink :to="prevParsha?.route" class="flex">
                 <UIcon name="i-carbon:chevron-right" class="w-6 h-6" />
