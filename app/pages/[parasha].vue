@@ -81,7 +81,7 @@ const scrollToAliya = (aliya, behavior = 'smooth') => {
   if (aliya === 0) {
     window.document.body.scrollIntoView({ behavior, block: 'start' })
   } else {
-    window.document.getElementById(`aliya-${aliya}`)?.scrollIntoView({ behavior, block: 'start' })
+    aliyotRefs.value[aliya - 1].scrollIntoView({ behavior, block: 'start' })
   }
 }
 
@@ -98,7 +98,9 @@ onMounted(() => {
     currentAliya.value = [0, 1, 2, 3, 4, 5].find(n => aliyotRefs.value[n]?.getBoundingClientRect().top - 80 <= 0 && (n === 5 || aliyotRefs.value[n + 1]?.getBoundingClientRect().top - 80 > 0)) + 1 || 0
   })
   if (settings.value.aliyaByDay && parasha === weeklyParshaObject?.route) {
-    scrollToAliya(new Date().getDay(), 'instant')
+    setTimeout(() => {
+      scrollToAliya(new Date().getDay(), 'instant')
+    }, 100)
   }
   window.addEventListener('beforeprint', () => {
     fontSizeContainer.value.style.fontSize = '16px'
