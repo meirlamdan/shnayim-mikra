@@ -2,27 +2,27 @@
 import { HDate } from '@hebcal/core';
 const { weeklyParshaObject, parshiyotList } = await useParsha()
 
-const value = computed({
+const parashaRoute = computed({
   get() {
-    return useRoute().params.parasha as string || weeklyParshaObject?.route
+    return useRoute().params.parasha as string
   },
   set(value) {
-    value
+    parashaRoute.value = value
   }
 })
 
 const prevParsha = computed(() => {
-  const index = parshiyotList.findIndex(({ route }) => route === value.value)
+  const index = parshiyotList.findIndex(({ route }) => route === parashaRoute.value)
   return parshiyotList[index - 1] || parshiyotList[parshiyotList.length - 1]
 })
 
 const nextParsha = computed(() => {
-  const index = parshiyotList.findIndex(({ route }) => route === value.value)
+  const index = parshiyotList.findIndex(({ route }) => route === parashaRoute.value)
   return parshiyotList[index + 1] || parshiyotList[0]
 })
 
 const parashaHe = computed(() => {
-  return parshiyotList.find(({ route }) => route === value.value)?.he
+  return parshiyotList.find(({ route }) => route === parashaRoute.value)?.he
 })
 
 const printParsha = () => {
@@ -34,9 +34,9 @@ onMounted(() => {
   location.value = window.location
 })
 useHead({
-  title: () => `שניים מקרא ואחד תרגום - פרשת ${value.value ? parashaHe.value : 'השבוע'}`,
+  title: () => `שניים מקרא ואחד תרגום - פרשת ${parashaRoute.value ? parashaHe.value : 'השבוע'}`,
   link: [
-    { rel: 'canonical', href: `https://shnayim-mikra.netlify.app${value.value ? `/${value.value}` : ''}` },
+    { rel: 'canonical', href: `https://shnayim-mikra.netlify.app${parashaRoute.value ? `/${parashaRoute.value}` : ''}` },
   ]
 })
 
@@ -58,13 +58,13 @@ useHead({
               <Slideover />
             </div>
           </div>
-          <div class="flex justify-center items-center gap-x-5 print:hidden">
+          <div v-if="parashaRoute" class="flex justify-center items-center gap-x-5 print:hidden">
             <UTooltip :text="prevParsha?.he" :content="{ side: 'right' }">
               <ULink :to="prevParsha?.route" class="flex">
                 <UIcon name="i-carbon:chevron-right" class="w-6 h-6" />
               </ULink>
             </UTooltip>
-            <USelectMenu v-model="value" value-key="route" label-key="he" :items="parshiyotList" :search-input="{
+            <USelectMenu v-model="parashaRoute" value-key="route" label-key="he" :items="parshiyotList" :search-input="{
               placeholder: 'פרשה...',
             }" class="w-48" dir="rtl">
               <template #item="{ item }">

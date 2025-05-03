@@ -115,7 +115,7 @@ onMounted(() => {
   <div class="sticky top-0 p-2 bg-gray-100 dark:bg-gray-900 print:hidden">
     <div class="flex items-center justify-between">
       <div class="font-medium text-lg sm:text-xl mb-1">פרשת <span>{{ parashaHe }}</span> </div>
-      <UButton @click="printParsha" variant="link" to="/" v-if="parasha !== weeklyParshaObject?.route">
+      <UButton @click="printParsha" variant="link" :to="{ name: 'parasha', params: { parasha: weeklyParshaObject?.route } }" v-if="parasha !== weeklyParshaObject?.route">
         <span>לפרשת השבוע</span>
         <UIcon name="ph:arrow-left" />
       </UButton>

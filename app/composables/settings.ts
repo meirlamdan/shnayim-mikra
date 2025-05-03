@@ -6,6 +6,7 @@ type Settings = {
   aliyaByDay: boolean
   fontRashi: boolean,
   disableMeforshim: boolean
+  navigateToParsha: boolean | null
 }
 
 const defaultSettings = {
@@ -15,7 +16,8 @@ const defaultSettings = {
   fontSize: 20,
   aliyaByDay: false,
   fontRashi: true,
-  disableMeforshim: false
+  disableMeforshim: false,
+  navigateToParsha: null,
 } as Settings
 export const useSettings = () => {
   const settings = useCookie<Settings>('settings', { default: () => defaultSettings, maxAge: 315360000 })
