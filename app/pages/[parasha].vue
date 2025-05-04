@@ -144,9 +144,9 @@ onMounted(() => {
         <div v-if="item.rashi" class="mt-1 text-[0.7em]" :class="{ 'font-rashi': settings.fontRashi }"
           v-html="item.rashi.join('  ')">
         </div>
-        <div v-if="item.meforshim?.length && !settings.disableMeforshim">
+        <div v-if="item.meforshim?.length && !settings.disableMeforshim" class="mt-1">
           <div class="flex gap-2 flex-wrap print:hidden">
-            <UBadge class="cursor-pointer" color="neutral"
+            <UBadge class="cursor-pointer text-[0.5em] py-[0.1em] px-[0.5em]" color="neutral"
               :variant="showMeforshim[i]?.[pirush] === 'open' ? 'outline' : 'soft'"
               :icon="showMeforshim[i]?.[pirush] === 'loading' ? 'svg-spinners:6-dots-rotate' : ''"
               @click="getPirush(pirush, i)" v-for="pirush in meforshimOrdered(item.meforshim)" :key="pirush">{{
@@ -200,9 +200,9 @@ onMounted(() => {
             </span>
           </span>
         </div>
-        <div v-if="item.some((i) => i.meforshim?.length) && !settings.disableMeforshim">
-          <div class="flex gap-2 flex-wrap mt-1">
-            <UBadge class="cursor-pointer" color="neutral"
+        <div v-if="item.some((i) => i.meforshim?.length) && !settings.disableMeforshim" class="mt-1">
+          <div class="flex gap-2 flex-wrap">
+            <UBadge class="cursor-pointer text-[0.5em] py-[0.1em] px-[0.5em]" color="neutral"
               :variant="showMeforshim[i]?.[pirush] === 'open' ? 'outline' : 'soft'"
               :icon="showMeforshim[i]?.[pirush] === 'loading' ? 'svg-spinners:6-dots-rotate' : ''"
               @click="getPirush(pirush, i)" v-for="pirush in meforshimOrdered(item, true)" :key="pirush">{{
