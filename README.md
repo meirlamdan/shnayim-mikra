@@ -6,3 +6,7 @@
 - רש"י (רמב"ן, אבן עזרא, רשב"ם, חזקוני, ספורנו, דעת זקנים, אור החיים)
 - עוד
 
+![image](https://github.com/user-attachments/assets/f769661c-b98b-46c6-98a2-b56c98b8e780)
+
+![image](https://github.com/user-attachments/assets/9a42998a-e8ef-4cc4-9872-ee27859cbf1d)
+

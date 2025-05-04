@@ -68,7 +68,7 @@ const toggleDarkMode = () => {
       <div class="mt-6">
         <div> <label for="fontSize">גודל טקסט</label>
         </div>
-        <input type="range" id="fontSize" name="cowbell" min="14" max="28" v-model="settings.fontSize" step="2" />
+        <input class="accent-black" type="range" id="fontSize" name="cowbell" min="14" max="28" v-model="settings.fontSize" step="2" />
       </div>
     </template>
     <template #footer>
