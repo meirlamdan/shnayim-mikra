@@ -29,6 +29,15 @@ const printParsha = () => {
   window?.print()
 }
 
+const share = () => {
+  const text = parashaRoute.value ? `שניים מקרא ואחד תרגום - פרשת ${parshiyotList.find(({ route }) => route === parashaRoute.value)?.he}` : 'שניים מקרא ואחד תרגום'
+  navigator.share({
+    title: text,
+    text,
+    url: location.value.href
+  })
+}
+
 const location = ref()
 onMounted(() => {
   location.value = window.location
@@ -54,6 +63,7 @@ useHead({
           <div class="flex items-center justify-between my-10 print:hidden">
             <div class="text-sm sm:text-base">{{ new HDate().renderGematriya(true) }} פרשת {{ weeklyParshaObject?.he }}</div>
             <div class="flex gap-2 sm:gap-4">
+              <UButton icon="ph:share-network" size="sm" variant="subtle" color="neutral" @click="share" />
               <UButton icon="ph:printer-light" @click="printParsha" size="sm" variant="subtle" color="neutral" />
               <Slideover />
             </div>
