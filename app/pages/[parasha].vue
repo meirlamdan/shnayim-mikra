@@ -73,6 +73,9 @@ const orderedData = computed(() => {
       }
     })
   }
+  arr.forEach((item, i) => {
+    item.key = i
+  })
   return arr
 })
 
@@ -130,7 +133,7 @@ onMounted(() => {
   <div :style="{ 'font-size': `${settings?.fontSize}px` }" :ref="fontSizeContainer"
     class="text-justify bg-white dark:bg-gray-800 py-3 px-5 shadow rounded print:shadow-none print:rounded-none">
     <div v-if="settings.order === 'pasuk'">
-      <div v-for="(item, i) in data" :key="i" class="mb-6">
+      <div v-for="item in data" :key="item.pasuk" class="mb-6">
         <div class="font-sbl">
           <span v-if="item.aliya"
             class="bg-gray-300 dark:bg-gray-600 leading-[1.2] inline-block -mt-1.5 ml-2 scroll-mt-[75px] px-1 rounded text-[1em]"
@@ -165,7 +168,7 @@ onMounted(() => {
       </div>
     </div>
     <div v-else>
-      <div v-for="(item, i) in orderedData" :key="i" class="mb-10">
+      <div v-for="item in orderedData" :key="item.key" class="mb-10">
         <div class="font-sbl">
           <span v-for="({ torah, pasuk, perek, aliya }, j) in item" :key="j" class="me-2">
             <span v-if="aliya"
@@ -175,7 +178,7 @@ onMounted(() => {
             <span class="ml-2 font-semibold text-[0.8em]">{{ pasuk }}</span>
             <span class="text-[1.2em]">{{ torah }}</span>
           </span>
-          <span v-for="({ torah, pasuk, perek }, j) in item" :key="j" class="me-2">
+          <span v-for="({ torah, pasuk, perek }) in item" :key="pasuk" class="me-2">
             <span class="ml-2 font-semibold text-[0.9em]" v-if="perek">{{ perek }}</span>
             <span class="ml-2 font-semibold text-[0.8em]">{{ pasuk }}</span>
             <span class="text-[1.2em]">{{ torah }}</span>
@@ -184,7 +187,7 @@ onMounted(() => {
         <div class="font-sbl">
         </div>
         <div class="font-sbl">
-          <span v-for="({ targum, pasuk, perek }, i) in item" :key="i" class="me-2  text-gray-500 dark:text-gray-300">
+          <span v-for="({ targum, pasuk, perek }) in item" :key="pasuk" class="me-2  text-gray-500 dark:text-gray-300">
             <span class="ml-2 font-semibold text-[0.8em]" v-if="perek">{{ perek }}</span>
             <span class="ml-2 font-semibold text-[0.7em]">{{ pasuk }}</span>
             <span class="text-[1.1em] targum" v-html="targum"></span>
@@ -192,7 +195,7 @@ onMounted(() => {
         </div>
         <div v-if="item.some((i) => i.rashi?.length)" :class="{ 'font-rashi': settings.fontRashi }"
           class="leading-none">
-          <span v-for="({ rashi, pasuk, perek }, i) in item" :key="i" class="text-[0.7em]">
+          <span v-for="({ rashi, pasuk, perek }) in item" :key="pasuk" class="text-[0.7em]">
             <span v-if="rashi?.length" class="me-2">
               <span class="ml-2 font-semibold text-[0.9em]" v-if="perek">{{ perek }}</span>
               <span class="ml-2 font-semibold text-[0.8em]">{{ pasuk }}</span>
