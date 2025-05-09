@@ -118,7 +118,7 @@ onMounted(() => {
   <div class="sticky top-0 p-2 bg-gray-100 dark:bg-gray-900 print:hidden">
     <div class="flex items-center justify-between">
       <div class="font-medium text-lg sm:text-xl mb-1">פרשת <span>{{ parashaHe }}</span> </div>
-      <UButton @click="printParsha" variant="link" :to="{ name: 'parasha', params: { parasha: weeklyParshaObject?.route } }" v-if="parasha !== weeklyParshaObject?.route">
+      <UButton variant="link" :to="{ name: 'parasha', params: { parasha: weeklyParshaObject?.route } }" v-if="parasha !== weeklyParshaObject?.route">
         <span>לפרשת השבוע</span>
         <UIcon name="ph:arrow-left" />
       </UButton>
@@ -133,7 +133,7 @@ onMounted(() => {
   <div :style="{ 'font-size': `${settings?.fontSize}px` }" :ref="fontSizeContainer"
     class="text-justify bg-white dark:bg-gray-800 py-3 px-5 shadow rounded print:shadow-none print:rounded-none">
     <div v-if="settings.order === 'pasuk'">
-      <div v-for="item in data" :key="item.pasuk" class="mb-6">
+      <div v-for="(item, i) in data" :key="item.pasuk" class="mb-6">
         <div class="font-sbl">
           <span v-if="item.aliya"
             class="bg-gray-300 dark:bg-gray-600 leading-[1.2] inline-block -mt-1.5 ml-2 scroll-mt-[75px] px-1 rounded text-[1em]"
@@ -170,7 +170,7 @@ onMounted(() => {
     <div v-else>
       <div v-for="item in orderedData" :key="item.key" class="mb-10">
         <div class="font-sbl">
-          <span v-for="({ torah, pasuk, perek, aliya }, j) in item" :key="j" class="me-2">
+          <span v-for="({ torah, pasuk, perek, aliya }) in item" :key="pasuk" class="me-2">
             <span v-if="aliya"
               class="bg-gray-300  dark:bg-gray-600 leading-[1.2] inline-block -mt-1.5 ml-2 scroll-mt-[75px] px-1 rounded text-[1em]"
               :id="`aliya-${aliyot.indexOf(aliya)}`" ref="aliya">{{ aliya }}</span>
@@ -183,8 +183,6 @@ onMounted(() => {
             <span class="ml-2 font-semibold text-[0.8em]">{{ pasuk }}</span>
             <span class="text-[1.2em]">{{ torah }}</span>
           </span>
-        </div>
-        <div class="font-sbl">
         </div>
         <div class="font-sbl">
           <span v-for="({ targum, pasuk, perek }) in item" :key="pasuk" class="me-2  text-gray-500 dark:text-gray-300">
@@ -206,17 +204,17 @@ onMounted(() => {
         <div v-if="item.some((i) => i.meforshim?.length) && !settings.disableMeforshim" class="mt-1">
           <div class="flex gap-2 flex-wrap">
             <UBadge class="cursor-pointer text-[0.5em] py-[0.1em] px-[0.5em]" color="neutral"
-              :variant="showMeforshim[i]?.[pirush] === 'open' ? 'outline' : 'soft'"
-              :icon="showMeforshim[i]?.[pirush] === 'loading' ? 'svg-spinners:6-dots-rotate' : ''"
-              @click="getPirush(pirush, i)" v-for="pirush in meforshimOrdered(item, true)" :key="pirush">{{
+              :variant="showMeforshim[item.key]?.[pirush] === 'open' ? 'outline' : 'soft'"
+              :icon="showMeforshim[item.key]?.[pirush] === 'loading' ? 'svg-spinners:6-dots-rotate' : ''"
+              @click="getPirush(pirush, item.key)" v-for="pirush in meforshimOrdered(item, true)" :key="pirush">{{
                 meforshim[pirush]
               }}</UBadge>
           </div>
           <div>
             <template v-for="pirush in meforshimOrdered(item, true)" :key="pirush">
-              <div v-if="showMeforshim[i]?.[pirush] === 'open'" class="text-[0.6em] mt-1">
+              <div v-if="showMeforshim[item.key]?.[pirush] === 'open'" class="text-[0.6em] mt-1">
                 <div class="underline">{{ meforshim[pirush] }}</div>
-                <template v-for="(pasuk, j) in item" :key="j">
+                <template v-for="pasuk in item" :key="pasuk">
                   <span v-if="pasuk[pirush]?.length" class="me-2">
                     <span class="me-1 text-[0.8em] font-semibold" v-if="pasuk.perek">{{ pasuk.perek }}</span>
                     <span class="me-1 text-[0.8em] font-semibold">{{ pasuk.pasuk }}</span>
