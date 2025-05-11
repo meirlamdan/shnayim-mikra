@@ -200,7 +200,7 @@ export default {
   "emor": {
     chumash: "vayikra",
     start: [20, 0],
-    end: [24, 22],
+    end: [23, 22],
     aliyot: [[20, 15], [21, 16], [22, 0], [22, 22], [22, 32], [23, 0], [23, 20]]
   },
   "behar": {
