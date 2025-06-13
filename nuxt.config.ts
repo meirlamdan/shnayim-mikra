@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/ui', 'nuxt-gtag', '@nuxtjs/sitemap'],
+  modules: ['@nuxt/ui', 'nuxt-gtag', '@nuxtjs/sitemap', "@compodium/nuxt"],
   future: {
     compatibilityVersion: 4,
   },
@@ -40,6 +40,11 @@ export default defineNuxtConfig({
         loc: `https://shnayim-mikra.netlify.app/${parasha}`,
         lastmod: new Date().toISOString(),
       }))
+    },
+  },
+  nitro: {
+    experimental: {
+      openAPI: true
     },
   }
 })

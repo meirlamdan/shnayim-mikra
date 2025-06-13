@@ -10,9 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@compodium/nuxt": "^0.1.0-beta.10",
     "@nuxt/devtools": "latest",
     "@nuxtjs/sitemap": "^7.2.9",
-    "nuxt": "^3.16.2",
+    "nuxt": "^3.17.3",
     "nuxt-gtag": "^3.0.2",
     "vue": "latest"
   },
