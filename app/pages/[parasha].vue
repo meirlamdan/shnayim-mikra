@@ -79,7 +79,7 @@ const orderedData = computed(() => {
   return arr
 })
 
-const aliyot = ['ראשון', 'שני', 'שלישי', 'רביעי', 'חמישי', 'שישי', 'שביעי']
+const aliyot = ['ראשון', 'שני', 'שלישי', 'רביעי', 'חמישי', 'ששי', 'שביעי']
 const scrollToAliya = (aliya, behavior = 'smooth') => {
   if (aliya === 0) {
     window.document.body.scrollIntoView({ behavior, block: 'start' })

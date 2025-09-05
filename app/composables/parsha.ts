@@ -60,11 +60,12 @@ export const useParsha = async () => {
     { he: "כי תצא", hebcal: "Ki Teitzei", route: "ki-teitzei" },
     { he: "כי תבוא", hebcal: "Ki Tavo", route: "ki-tavo" },
     { he: "נצבים", hebcal: "Nitzavim", route: "nitzavim" },
-    { he: "וילך", hebcal: "Vayeilech", route: "vayeilech" },
+    // { he: "וילך", hebcal: "Vayeilech", route: "vayeilech" },
     { he: "נצבים-וילך", hebcal: "Nitzavim Vayeilech", route: "nitzavim-vayeilech" },
     { he: "האזינו", hebcal: "Ha'Azinu", route: "haazinu" },
     { he: "וזאת הברכה", hebcal: "V'Zot HaBerachah", route: "vzot-haberachah" }
-  ].filter(({ hebcal }) => parshiyotOfYear.includes(hebcal) || hebcal === "V'Zot HaBerachah")
+  ].filter(({ hebcal }) => parshiyotOfYear.includes(hebcal) || ["Vayeilech","Ha'Azinu", "V'Zot HaBerachah"].includes(hebcal));
+  
 
   const weeklyParsha = new Sedra(new HDate().getFullYear(), settings.value.location === 'israel').lookup(new HDate()).parsha
   return {

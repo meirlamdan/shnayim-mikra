@@ -59,7 +59,7 @@ export default defineCachedEventHandler(async (event) => {
       obj.perek = toHebrew(currentPerek);
     }
     if (aliyot.find(([perek, pasuk]) => perek === currentPerek && pasuk === currentPasuk)) {
-      const aliyotName = ['שני', 'שלישי', 'רביעי', 'חמישי', 'שישי', 'שביעי', 'מפטיר'];
+      const aliyotName = ['שני', 'שלישי', 'רביעי', 'חמישי', 'ששי', 'שביעי', 'מפטיר'];
       obj.aliya = aliyotName[aliyot.findIndex(([perek, pasuk]) => perek === currentPerek && pasuk === currentPasuk)];
     }
     data.push(obj);
