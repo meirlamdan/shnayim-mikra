@@ -92,6 +92,20 @@ const parashaHe = computed(() => {
   return parshiyotList.find(({ route }) => route === parasha)?.he
 })
 
+useSeoMeta({
+  title: () => `פרשת ${parashaHe.value} | שניים מקרא ואחד תרגום`,
+  description: () => `קראו את פרשת ${parashaHe.value} - שניים מקרא ואחד תרגום אונקלוס אונליין, עם רש"י ומפרשים נוספים. תצוגה נוחה ומותאמת לנייד.`,
+  ogTitle: () => `פרשת ${parashaHe.value} | שניים מקרא ואחד תרגום`,
+  ogDescription: () => `קראו את פרשת ${parashaHe.value} - שניים מקרא ואחד תרגום אונקלוס אונליין, עם רש"י ומפרשים נוספים. תצוגה נוחה ומותאמת לנייד.`,
+  ogImage: 'https://shnayim-mikra.netlify.app/logo.png',
+  ogUrl: () => `https://shnayim-mikra.netlify.app/${parasha}`,
+  ogType: 'website',
+  twitterCard: 'summary',
+  twitterTitle: () => `פרשת ${parashaHe.value} | שניים מקרא ואחד תרגום`,
+  twitterDescription: () => `קראו את פרשת ${parashaHe.value} - שניים מקרא ואחד תרגום אונקלוס אונליין, עם רש"י ומפרשים נוספים.`,
+  twitterImage: 'https://shnayim-mikra.netlify.app/logo.png',
+})
+
 const aliyotRefs = useTemplateRef('aliya')
 
 const currentAliya = ref(0)

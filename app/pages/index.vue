@@ -7,6 +7,20 @@ const moveToParasha = () => {
   settings.value.navigateToParsha = navigateToParsha.value
   navigateTo(weeklyParshaObject.route)
 }
+
+useSeoMeta({
+  title: 'שניים מקרא ואחד תרגום | כל הפרשות',
+  description: 'קריאת שניים מקרא ואחד תרגום אונקלוס אונליין. בחרו פרשה וקראו בצורה נוחה עם תרגום, רש"י ומפרשים נוספים. מותאם לנייד.',
+  ogTitle: 'שניים מקרא ואחד תרגום | כל הפרשות',
+  ogDescription: 'קריאת שניים מקרא ואחד תרגום אונקלוס אונליין. בחרו פרשה וקראו בצורה נוחה עם תרגום, רש"י ומפרשים נוספים. מותאם לנייד.',
+  ogImage: 'https://shnayim-mikra.netlify.app/logo.png',
+  ogUrl: 'https://shnayim-mikra.netlify.app/',
+  ogType: 'website',
+  twitterCard: 'summary',
+  twitterTitle: 'שניים מקרא ואחד תרגום | כל הפרשות',
+  twitterDescription: 'קריאת שניים מקרא ואחד תרגום אונקלוס אונליין. בחרו פרשה וקראו בצורה נוחה עם תרגום, רש"י ומפרשים נוספים.',
+  twitterImage: 'https://shnayim-mikra.netlify.app/logo.png',
+})
 </script>
 
 <template>

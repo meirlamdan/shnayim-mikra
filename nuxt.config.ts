@@ -36,10 +36,13 @@ export default defineNuxtConfig({
         "tetzaveh", "ki-tisa", "vayakhel", "pekudei", "vayakhel-pekudei", "vayikra", "tzav", "shmini", "tazria", "metzora", "tazria-metzora", "achrei-mot", "kedoshim", "emor", "achrei-mot-kedoshim", "behar", "bechukotai", "behar-bechukotai", "bamidbar", "nasso", "behaalotcha",
         "shlach", "korach", "chukat", "balak", "chukat-balak", "pinchas", "matot", "masei", "matot-masei", "devarim", "vaetchanan", "eikev", "reeh", "shoftim", "ki-teitzei", "ki-tavo", "nitzavim", "vayeilech", "nitzavim-vayeilech", "haazinu", "vzot-haberachah"
       ]
-      return parshiyot.map(parasha => ({
-        loc: `https://shnayim-mikra.netlify.app/${parasha}`,
-        lastmod: new Date().toISOString(),
-      }))
+      return [
+        { loc: 'https://shnayim-mikra.netlify.app/', lastmod: new Date().toISOString() },
+        ...parshiyot.map(parasha => ({
+          loc: `https://shnayim-mikra.netlify.app/${parasha}`,
+          lastmod: new Date().toISOString(),
+        }))
+      ]
     },
   },
   nitro: {
